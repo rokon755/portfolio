@@ -1,0 +1,236 @@
+
+
+@media (min-width: 669px) and (max-width: 1366px) {
+	.responsive_669-rupayan_main-slider-topleft-img {
+	  width: 180px;
+	}
+	.responsive-699_rupayan_main-slider-content-two {
+	  top: 20%;
+	}
+	.responsive_699-rupayan_main-slider-content-three {
+	  top: 17%;
+	}
+	.responsive-699_rupayan_main-slider-content-four {
+	  top: 18%;
+	}
+	.responsive-699-rupayan_main-slider-content-one {
+	  top: 19%;
+	}
+	.project-name-image img {
+	  height: 400px;
+	  width: 100%;
+	}
+	.sub-page_contact-us h1 {
+	  margin-top: 90px;
+	}
+	.extra_categories_image {
+	  height: 140px !important;
+	  width: 100%;
+	}
+	.slick-prev::before, .slick-next::before {
+	    display: none;
+	}
+	#back-to-top{
+		right: 38px;
+	}
+	.col-md-8 .col-md-2 .tabbable.tabs-left {
+		width: 156px;
+	}
+	.project-name_head-single_page {
+		margin-bottom: 38px;
+		margin-top: 0px;
+	}
+	.tabs-left > .nav-tabs .active > a, .tabs-left > .nav-tabs .active > a:hover, .tabs-left > .nav-tabs .active > a:focus {
+		margin-left: 4px;
+		margin-right: 0px;
+	}
+
+}
+
+
+
+
+
+
+@media(min-width: 320px) and (max-width: 568px){
+	.gated_community-hr {
+		border-color: #16b75d;
+		margin-top: 0;
+		width: 200px;
+	}
+	.slick-prev::before, .slick-next::before{
+		display: none;
+	}
+	.first_slide {
+		height: 260px;
+	}
+	.mega_premium-gated h1 {
+
+		font-size: 26px;
+	}
+
+	.mega_premium-gated {
+		padding-bottom: 60px;
+		padding-top: 60px;
+	}
+	.birds_eye-view h1 {
+		font-size: 28px;
+	}
+	.birds_eye-view {
+    padding-bottom: 10px;
+    padding-top: 10px;
+	}
+	.message-head_name h1{
+		margin-top: 84px;
+		font-size: 24;
+	}
+	.message_form-section {
+    padding-bottom: 60px;
+    padding-top: 60px;
+	}
+	.Mega-Premium-Gated_Community h1 {
+    margin-top: 60px;
+    font-size: 28px;
+	}
+	.Mega-Premium-Gated_Community hr {
+    border-color: #fff;
+    margin-bottom: 60px;
+	}
+	.Mega-Premium-Gated_Community {
+    padding-bottom: 60px;
+	}
+	.gallery_section {
+    padding-bottom: 60px;
+    padding-top: 60px;
+	}
+	.map_office-address_section h1 {
+    margin-top: 60px;
+    font-size: 28px;
+	}
+	.map_office-address_section hr {
+    margin-bottom: 0px;
+	}
+	.contact_us-categories {
+    padding: 48px 0 0 5px;
+	}
+	.map_office-address_section {
+    padding-bottom: 60px;
+	}
+	.office_address-all {
+    padding-bottom: 10px;
+    padding-top: 20px;
+	}
+	.rupayan_others-company {
+    padding-bottom: 40px;
+    padding-top: 50px;
+	}
+	.extra-about_us-link.list-inline {
+    margin-top: 45px;
+	}
+	#back-to-top{
+		right: 0px;
+	}
+	.navbar-brand img {
+    height: 50px;
+    padding: 4px 0;
+    position: absolute;
+    top: 1px;
+    width: 160px;
+	}
+	.navbar-brand{
+		width: 186px;
+	}
+	.message-head_name h1 {
+	  font-size: 24px;
+	}
+	.map_office-address_section {
+	  padding-bottom: 60px;
+	}
+	.developed-by_section .container-fluid {
+	  margin: 0;
+	  padding: 0;
+	}
+	.rupayan_main-slider-image-another {
+    display: none !important;
+	}
+	.img-responsive.rupayan_main-slider-topleft-img.responsive_669-rupayan_main-slider-topleft-img {
+	  display: none;
+	}
+	img.img-responsive.rupayan_main-slider-topleft-img {
+	    display: none;
+	}
+	.rupayan_main-slider-image img {
+	  height: 406px;
+	}
+	.rupayan_main-slider-content-two {
+	  top: 0;
+	}
+	.slider.autoplay.rupayan_main-slider.slick-initialized.slick-slider {
+	  display: none;
+	}
+	.project-name_head-single_page {
+	  font-size: 35px;
+	  margin-top: 10px;
+	}
+	.tabbable.tabs-left {
+	  padding-left: 40px;
+	}
+	.project-name-image img {
+	  height: 189px;
+	}
+	.col-lg-9 .tab-content {
+	  padding-left: 0;
+	}
+	.col-md-4 .tabbable a {
+	  font-size: 12px;
+	  padding-left: 7px;
+	  padding-right: 7px;
+	}
+	.single_page_content .col-md-4 {
+	  margin-top: 50px;
+	}
+	.single_page-navigation_menu .navbar-default .navbar-nav > li > a {
+	  padding-bottom: 10px;
+	  padding-top: 10px;
+	}
+	.metro_come-home h1 {
+	  font-size: 26px;
+	}
+	.metro_come-home h4 {
+	  font-size: 18px;
+	}
+	.map_office-address_section h1 {
+	  font-size: 38px;
+	  margin-top: 60px;
+	}
+	.col-md-8 .col-lg-10 .tab-content {
+	    padding-left: 0px;
+	}
+	.single_page_content {
+    padding-bottom: 1px;
+	}
+	.rupayan_group-message img {
+    width: auto;
+	}
+	.sub-page_contact-us {
+    margin-top: 45px;
+	}
+
+
+	.simplefilter li {
+	    padding-left: 7px;
+	    padding-right: 7px;
+	}
+	ul.simplefilter {
+    padding-left: 0px;
+	}
+
+
+
+}
+
+
+
+
+
+

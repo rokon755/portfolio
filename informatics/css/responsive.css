@@ -1,0 +1,251 @@
+/*breakpoints for small devices goes here*/
+@media (min-width: 992px) and (max-width: 1140px) {
+	
+	.list-inline {
+	  margin-top: 17px;
+	}
+}
+/*end tab landscape*/
+
+
+/*tab portrait*/
+@media (min-width: 768px) and (max-width: 992px) {
+	.discuss .col-md-3 {
+	  display: none;
+	}
+
+	.discuss .col-md-6 > input {
+	  margin: 0 0 23px;
+	}
+
+	.discuss .col-md-1 {
+	  display: none;
+	}
+
+	.products {
+	  margin: 30px 0 0;
+	}
+
+	.address .col-md-6 .input-group {
+	  width:130%;
+	}
+
+	.products {
+	  padding: 0;
+	}
+
+	.footer_up {
+	  margin: 20px 0 0;
+	}
+
+	.footer_up .btn.btn-primary {
+	  display: block;
+	  text-align: center !important;
+	}
+	.content_nav .col-md-3 > img {
+	  display: block;
+	  height: 120px;
+	  margin: 0 auto;
+	}
+	.content_nav .col-md-3 {
+	  text-align: center;
+	}
+	
+	.content_nav .col-md-3 {
+	  margin: 56px 0 0;
+	  text-align: center;
+	}
+	
+	.location_map {
+	  display: none;
+	}
+	
+	.carousel-inner {
+	  height: 265px;
+	}
+	
+	.slide .item > img {
+	  height: 191px;
+	  margin: 56px 64px 0 0;
+	  max-width: 48%;
+	}
+	
+	.slide .item > img {
+	  margin: 55px 36px 0 0;
+	  max-height: 215px;
+	}
+	
+	.carousel-caption {
+	top: 50px;
+	}
+	
+	.content_nav {
+	  padding: 35px 0 15px;
+	}
+	
+
+}
+
+/*generic mobile devices*/
+@media (max-width:767px) {
+	.hotline-mail {
+	  margin-bottom: 20px;
+	  text-align: center;
+	}
+	.text-right {
+	  margin-bottom: 10px;
+	  text-align: center;
+	}
+	.logo{
+		display: block;
+	}
+	.logo img {
+	  margin: 0 auto;
+	}
+	.address img {
+	  height: auto;
+	}
+	.address .pull-right {
+	  float: none !important;
+	}
+	.navbar-default .navbar-toggle {
+	  border-color: #ffffff;
+	  border-radius: 0;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+	  background-color: #ffffff;
+	}
+	.slide .item > img {
+	  float: none;
+	  height: auto;
+	  margin: 0 auto;
+	  padding: 0;
+	  width: auto;
+	}
+	.carousel-caption {
+	  left: auto;
+	  position: static;
+	  right: auto;
+	  top: auto;
+	}
+	#back-to-top {
+		display: none !important;
+	}
+	.footer_up {
+		text-align: center;
+		margin: 20px 0 0;
+	    padding: 20px 0 39px;
+	}
+	.copy {
+	  margin: 0 0 10px;
+	  text-align: center;
+	}
+	.disclaimer ul {
+	  text-align: center;
+	}
+	.newsletter_frm ~ br {
+	  display: none;
+	}
+	.address {
+	  padding: 0 0 10px;
+	}
+	.address .col-md-6 .input-group {
+	  float: none;
+	  margin: 20px 0 0;
+	  width: auto;
+	}
+	.address p{
+		margin-bottom: 5px;
+	}
+	.slider .carousel .img-responsive.all-laptop {
+	  margin: 101px 0 0 49px;
+	  width: 85%;
+	}
+	.discuss .col-md-8 .col-md-6 > input {
+	  margin: 0 0 20px;
+	}
+
+	.discuss .col-md-1 {
+	  display: none;
+	}	
+
+	.products .text-center.well {
+		margin: 30px 0 0;
+	}
+	
+	.discuss .col-md-3 {
+		display: none;
+	}
+
+	.content_nav .col-md-3 {
+	  text-align: center;
+	}
+	
+	.content_nav .col-md-3 > img {
+	  display: block;
+	  margin: 58px 0 15px 63px;
+	  max-height: 120px;
+	}
+	.location_map {
+	  display: none;
+	}
+	
+	.slider {
+	  display: none;
+	  padding: 0 0 50px;
+	}
+	
+	.content_nav {
+	  padding: 35px 0 15px;
+	}
+	
+	.modal-body > img {
+	  width: 102%;
+	}
+	
+	.table.table-bordered img {
+	  display: block;
+	  margin: 0 auto;
+	  width: 103%;
+	}
+	
+	.btn-group-sm > .btn, .btn-sm {
+	  border-radius: 3px;
+	  font-size: 12px;
+	  line-height: 1.5;
+	  padding: 1px 0;
+	}
+	
+	.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+	  line-height: 1.429;
+	  padding: 0;
+	 }
+	 
+	 .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+	  vertical-align: top;
+	}
+	
+	.navbar-nav > li > .dropdown-menu {
+	  border: medium none;
+	  margin: 0px 0 0 139px;
+	}
+	
+	.discuss .col-md-8 > h3 {
+	  text-align: center;
+	}
+	
+	.btn {
+	  font-size: 14px;
+	  padding: 4px;
+	}
+	.main-menu .nav.navbar-nav .dropdown li a {
+	  text-align: center;
+	}
+	
+	
+	.input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group {
+	  height: 34px;
+	}
+} 
+
+

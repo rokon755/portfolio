@@ -1,0 +1,278 @@
+@media (min-width: 1920px) and (max-width: 2200px) {
+	
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1024px) {
+	
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	
+
+
+}
+
+@media (min-width: 669px) and (max-width: 1366px) {
+	
+	#home-slider-container {
+		height: 520px;
+	}
+	#home-slider-container #home-slider .slider-item img {
+		min-height: 520px;
+	}
+	.navigation-menu_section .navbar-brand img {
+		top: -7px;
+		width: 170px;
+		margin-right: 28px;
+	}
+	.navigation-menu_section .nav>li>a {
+		position: relative;
+		display: block;
+		padding: 17px 10px 10px;
+	}
+	.darkHeader .nav>li>a {
+		position: relative;
+		display: block;
+		padding: 17px 10px 10px;
+	}
+	.interested_member_button a {
+		width: 92%;
+	}
+
+
+	
+}
+
+
+@media (min-width: 569px) and (max-width: 1024px) {
+	
+
+
+	
+}
+
+@media (min-width: 434px) and (max-width: 732px) {
+	
+
+}
+
+
+@media (min-width: 360px) and (max-width: 768px) {
+	
+}
+
+
+@media (min-width: 320px) and (max-width: 568px) {
+	
+	.navigation-menu_section .container {
+		width: auto;
+	}
+	.main-menu-list {
+		text-align: left;
+	}
+	.extra_sub-menu-section {
+		text-align: center;
+		width: 170px !important;
+		left: 0px !important;
+	}
+	#home-slider-container #home-slider .slider-item img {
+		min-height: 170px;
+	}
+	#home-slider-container {
+		height: 170px;
+	}
+	.navigation-menu_section {
+		top: 64px;
+	}
+	.interested_member_button a {
+	    font-size: 14px;
+	    padding: 12px 0;
+	    width: 100%;
+	    border-radius: 3px;
+	    font-family: Lato;
+	}
+	.interested_member-indicator {
+		display: none;
+	}
+	.interested_member {
+		padding-bottom: 30px;
+		padding-top: 30px;
+	}
+	.about_left-section h3 {
+		font-size: 22px;
+		margin-top: 15px;
+	}
+	.darkHeader .container {
+		width: auto;
+	}
+	.navigation-menu_section .navbar-brand img {
+		top: -1px;
+		width: 115px;
+		margin-right: 0px;
+	}
+	.top_logo-section img {
+		width: 200px;
+	}
+	.about-bcsa_slider img {
+		height: 216px;
+		margin-top: 0;
+		min-height: 216px;
+	}
+	.about-bcsa_slider {
+		height: auto;
+		margin-top: 30px;
+	}
+	.about_bcsa {
+		padding-top: 30px;
+		padding-bottom: 58px;
+	}
+	.about_bcsa .slick-dots {
+		display: none !important;
+	}
+	#home-slider-container #home-slider .slick-dots li:after {
+		width: 22px;
+	}
+	#home-slider-container #home-slider .slick-dots {
+		bottom: 5px;
+	}
+	.gallery_border-bottom {
+	  animation: 0s ease 0s normal none 1 running none;
+	  margin: 15px auto 45px;
+	}
+	.gallery_section {
+	    padding-bottom: 57px;
+	    padding-top: 30px;
+	}
+	.bcsa_members {
+	    padding-bottom: 43px;
+	    padding-top: 30px;
+	}
+	.bcsa_members_para {
+	    margin-bottom: 30px;
+	    padding: 0px;
+	    font-size: 14px;
+	    text-align: justify;
+	    margin-top: 30px;
+	}
+	.pricing {
+	    margin-bottom: 15px;
+	}
+	.contact_us-section {
+	    padding-bottom: 0px;
+	    padding-top: 0px;
+	}
+	.contact {
+	    left: 0;
+	    padding: 30px 15px;
+	    top: 0px;
+	    width: 100%;
+	}
+	.contact h2 {
+	    font-size: 22px;
+	    font-weight: 400;
+	}
+	.contact .address ul li p {
+	    font-size: 14px;
+	    padding-left: 16px;
+	}
+	.mail_contact {
+	    font-size: 16px;
+	    top: 0px;
+	}
+	.facebook_contact {
+	    font-size: 16px;
+	    top: 0px;
+	}
+	.copyright_section-left img {
+	    top: 5px;
+	    width: 100px;
+	}
+	.copyright_section-left ul {
+	    text-align: center;
+	}
+	.developed_company ul {
+	    text-align: left;
+	}
+	.developed_company img {
+	    top: 10px;
+	    width: 100px;
+	}
+	.gallery_viewall_button {
+	    color: #fff;
+	}
+	#back-to-top {
+	    font-size: 12px;
+	    font-weight: normal;
+	    height: 30px;
+	    line-height: 30px;
+	    width: 44px;
+	    bottom: 0px !important;
+	}
+	.navbar-default .navbar-nav > li > a {
+	    line-height: 20px;
+	    padding-bottom: 12px !important;
+	    padding-top: 12px !important;
+	    font-weight: normal !important;
+	}
+	.navbar-default .navbar-toggle {
+	    border-color: #F6B32C;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+	    background-color: #F6B32C;
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	    background-color: transparent;
+	}
+	.extra_sub-menu-section a {
+	    font-size: 14px;
+	}
+	.contact_us-section {
+	  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	}
+	.bg-7 {
+	  animation: 0s ease 0s normal none 1 running none;
+	}
+	.about_bcsa h2 {
+	  animation: 0s ease 0s normal none 1 running none;
+	}
+	.about_border-bottom {
+	  animation: 0s ease 0s normal none 1 running none;
+	}
+	.about_left-section {
+	  animation: 0s ease 0s normal none 1 running none;
+	}
+	.about-bcsa_slider {
+	  animation: 0s ease 0s normal none 1 running none;
+	}
+	.gallery_section h2 {
+	  animation: 0s ease 0s normal none 1 running none;
+	}
+	.cbp-l-filters-alignRight {
+	  animation: 0s ease 0s normal none 1 running none;
+	}
+	.bcsa_members h2 {
+	  animation: 0s ease 0s normal none 1 running none;
+	}
+	.members_border-bottom {
+	  animation: 0s ease 0s normal none 1 running none;
+	}
+	.bcsa_members_para {
+	  animation: 0s ease 0s normal none 1 running none;
+	}
+	
+
+
+
+
+}
+
+
+
+
+
+

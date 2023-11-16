@@ -1,0 +1,41 @@
+
+@media (max-width:767px){
+.navbar-default .navbar-toggle {
+    border-color: #ffffff;
+    border-width: 2px;
+	border-radius: 0;
+}
+.navbar-nav {
+    float: none;
+ }
+ 
+ .navbars .col-md-8 ul li a:hover {
+  background: #3f4c6b none repeat scroll 0 0;
+  color: #fff;
+
+}
+.col-md-4.left img {
+  display: block;
+  margin: 0 auto;
+}
+.protfolio img {
+  padding: 0 0 20px;
+}
+
+.team .col-md-3 {
+  padding: 0 0 30px;
+}
+.contact .col-md-6 h3 {
+  padding: 30px 0 14px;
+}
+.slide .col-md-6 img {
+  padding-top: 40px;
+}
+.slide {
+  padding: 100px 0;
+}
+.service {
+  padding: 48px 0 100px;
+}
+
+} 

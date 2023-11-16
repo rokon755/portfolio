@@ -1,0 +1,588 @@
+<!-- Created By Rokon
+	Email:rokoncsemail@gmail.com
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    <title>JBFH | Make an Appointment.</title>
+    <link rel="icon" href="img/logo.png" />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/animated.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrapValidator.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-datetimepicker.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  </head>
+
+  <body>
+
+  <!--========================================================================================
+                                        Top Header Section
+  ============================================================================================-->
+    <div class="topbar_menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="main_logo">
+              <a href="index.html"><img src="img/logo.png" alt="" title="home"></a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="top-emergency-number">
+              <h4 class="text-center">Emergency 24 Hours</h4>
+              <h3 class="text-center"><span class="phone-logo"><i class="fa fa-phone" aria-hidden="true"></i></span> 123 456 7890</h3>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="top-menu-appointment-button">
+            <a href="appointment_page.html" class="btn btn-danger">Make An Appointment</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--========================================================================================
+                                        Navigation Menu Section
+    ============================================================================================-->
+    <div class="navigation_menu">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">DOCTOR LIST</a></li>
+                    <li class="dropdown mega-dropdown">
+                      <a href="#" class="dropdown-toggle patient_mobile_non" data-toggle="dropdown">MESSAGE <span class="caret"></span></a>   <ul class="dropdown-menu mega-dropdown-menu">
+                        <li class="col-sm-2">
+                          <ul class="big_menu">
+                            <li><a href="#">Mission</a></li>
+                          </ul>
+                        </li>
+                        <li class="col-sm-2">
+                          <ul class="big_menu">
+                            <li><a href="#">Vision</a></li>              
+                          </ul>
+                        </li>
+                        <li class="col-sm-4">
+                          <ul class="big_menu">
+                            <li><a href="#">Message of Managing Director</a></li>                        
+                          </ul>
+                        </li>
+                        <li class="col-sm-4">
+                          <ul class="big_menu">
+                            <li><a href="#">Our Core Values &amp; Commitments</a></li>                       
+                          </ul>
+                        </li>
+                      </ul>       
+                    </li>
+                    <li id="menu_one"><a href="#">SPECIALITIES <span id="caret"><i class="fa fa-caret-down" aria-hidden="true"></i></span></a>
+                        <ul class="drop-menu menu-1 specialist_mobile">
+                            <li><a class="drop_li" href="#">CARDIOLOGY</a></li>
+                            <li><a class="drop_li" href="#">FERTILITY CENTER</a></li>
+                            <li><a class="drop_li" href="#">INTERNAL MEDICINE</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">NEWS</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--========================================================================================
+                                            Appointment Section
+    ============================================================================================-->
+    <div class="make_appointment">
+      <div class="container">
+        <h2 class="make_appointment_head text-center">Make an Appointment</h2>
+        <p class="dot_appointment text-center">----------------------------------------------------------------------------</p>
+        <p class="make_appointment_para text-center">Please complete the form below to request an appointment at <b>Specialized Physiotherapy &amp; Arthritis Research Center</b>. After you submit the form, a representative will contact you within 72 hours to review your medical information before an appointment may be offered. </p>
+        <p class="make_appointment_para_note text-center"><b>Please note:</b> This form cannot be used for medical emergency or scheduling same-day appointment. If you plan to visit us within 24 hours <br>or have a medical emergency, please call <span><b>+8801 000 000 000</b></span></p>
+        <div class="appointment_form_list">
+          <div class="row">
+            <div class="col-md-10">
+              <form class="form-horizontal">
+                <div class="form-group">
+                  <label for="or" class="col-sm-3 control-label">Specialty :</label>
+                  <div class="col-sm-9">
+                    <select name="or" id="or" onchange="populate(this)" class="form-control">
+                      <option value="Select a Specialty">Select a Specialty</option>
+                      <option value="Cardiology">Cardiology</option>
+                      <option value="Fertility Center">Fertility Center</option>
+                      <option value="Internal Medicine">Internal Medicine</option>
+                      <option value="Lab Medicine">Lab Medicine</option>
+                      <option value="Neurology">Neurology</option>
+                      <option value="Neurosurgery">Neurosurgery</option>
+                      <option value="Orthopaedics">Orthopaedics</option>
+                      <option value="Gynaecology">Obstetrics &amp; Gynaecology</option>
+                      <option value="Ophthalmology">Ophthalmology</option>
+                      <option value="Respiratory">Respiratory Medicine</option>
+                      <option value="Urology">Urology</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="de" class="col-sm-3 control-label">Doctor Name :</label>
+                  <div class="col-sm-9">
+                    <select name="de" id="de" onchange="populateagain(this)" class="form-control"></select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="des" class="col-sm-3 control-label">Appointment Time :</label>
+                  <div class="col-sm-9">
+                    <select name="des" id="des" class="form-control"></select>
+                  </div>
+                </div>
+                <!-- <div class="form-group">
+                  <label for="datetimepicker5" class="col-sm-3 control-label">Preferred Appointment :</label>
+                  <div class="col-sm-9">
+                    <div class="controls input-append date form_datetime" data-date="1979-09-16T05:25:07Z" data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1">
+                      <input size="16" type="text" value="" class="form-control">
+                      <span class="add-on"><i class="icon-remove"></i></span>
+                      <span class="add-on"><i class="icon-th"></i></span>
+                  </div>
+                    <input type="hidden" id="dtp_input1" value="" />
+                  </div>
+                </div> -->
+                <div class="form-group">
+                  <label for="de" class="col-sm-3 control-label">Special Request :</label>
+                  <div class="col-sm-9">
+                    <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputuploadimage3" class="col-sm-3 control-label">Upload Image :</label>
+                  <div class="col-sm-9">
+                    <input id="inputuploadimage3" class="file_upload_type" type="file" required="required">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputcountry3" class="col-sm-3 control-label">Nationality :</label>
+                  <div class="col-sm-9">
+                    <select id="inputcountry3" name="subject" class="form-control" required="required">
+                      <option value="na" selected="">Choose One:</option>
+                      <option value="Afghanistan">Afghanistan</option>
+                        <option value="Albania">Albania</option>
+                        <option value="Algeria">Algeria</option>
+                        <option value="American Samoa">American Samoa</option>
+                        <option value="Andorra">Andorra</option>
+                        <option value="Angola">Angola</option>
+                        <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Armenia">Armenia</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Austria">Austria</option>
+                        <option value="Azerbaijan">Azerbaijan</option>
+                        <option value="Bahamas">Bahamas</option>
+                        <option value="Bahrain">Bahrain</option>
+                        <option value="Bangladesh">Bangladesh</option>
+                        <option value="Barbados">Barbados</option>
+                        <option value="Belarus">Belarus</option>
+                        <option value="Belgium">Belgium</option>
+                        <option value="Belize">Belize</option>
+                        <option value="Benin">Benin</option>
+                        <option value="Bermuda">Bermuda</option>
+                        <option value="Bhutan">Bhutan</option>
+                        <option value="Bolivia">Bolivia</option>
+                        <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                        <option value="Botswana">Botswana</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="Brunei">Brunei</option>
+                        <option value="Bulgaria">Bulgaria</option>
+                        <option value="Burkina Faso">Burkina Faso</option>
+                        <option value="Burundi">Burundi</option>
+                        <option value="Cambodia">Cambodia</option>
+                        <option value="Cameroon">Cameroon</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Cape Verde">Cape Verde</option>
+                        <option value="Cayman Islands">Cayman Islands</option>
+                        <option value="Central African Republic">Central African Republic</option>
+                        <option value="Chad">Chad</option>
+                        <option value="Chile">Chile</option>
+                        <option value="China">China</option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="Comoros">Comoros</option>
+                        <option value="Congo, Democratic Republic of the">Congo, Democratic Republic of the</option>
+                        <option value="Congo, Republic of the">Congo, Republic of the</option>
+                        <option value="Costa Rica">Costa Rica</option>
+                        <option value="Côte d'Ivoire">Côte d'Ivoire</option>
+                        <option value="Croatia">Croatia</option>
+                        <option value="Cuba">Cuba</option>
+                        <option value="Curaçao">Curaçao</option>
+                        <option value="Cyprus">Cyprus</option>
+                        <option value="Czech Republic">Czech Republic</option>
+                        <option value="Denmark">Denmark</option>
+                        <option value="Djibouti">Djibouti</option>
+                        <option value="Dominica">Dominica</option>
+                        <option value="Dominican Republic">Dominican Republic</option>
+                        <option value="East Timor">East Timor</option>
+                        <option value="Ecuador">Ecuador</option>
+                        <option value="Egypt">Egypt</option>
+                        <option value="El Salvador">El Salvador</option>
+                        <option value="Equatorial Guinea">Equatorial Guinea</option>
+                        <option value="Eritrea">Eritrea</option>
+                        <option value="Estonia">Estonia</option>
+                        <option value="Ethiopia">Ethiopia</option>
+                        <option value="Faroe Islands">Faroe Islands</option>
+                        <option value="Fiji">Fiji</option>
+                        <option value="Finland">Finland</option>
+                        <option value="France">France</option>
+                        <option value="French Polynesia">French Polynesia</option>
+                        <option value="Gabon">Gabon</option>
+                        <option value="Gambia">Gambia</option>
+                        <option value="Georgia">Georgia</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Ghana">Ghana</option>
+                        <option value="Greece">Greece</option>
+                        <option value="Greenland">Greenland</option>
+                        <option value="Grenada">Grenada</option>
+                        <option value="Guam">Guam</option>
+                        <option value="Guatemala">Guatemala</option>
+                        <option value="Guinea">Guinea</option>
+                        <option value="Guinea-Bissau">Guinea-Bissau</option>
+                        <option value="Guyana">Guyana</option>
+                        <option value="Haiti">Haiti</option>
+                        <option value="Honduras">Honduras</option>
+                        <option value="Hong Kong">Hong Kong</option>
+                        <option value="Hungary">Hungary</option>
+                        <option value="Iceland">Iceland</option>
+                        <option value="India">India</option>
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="Iran">Iran</option>
+                        <option value="Iraq">Iraq</option>
+                        <option value="Ireland">Ireland</option>
+                        <option value="Israel">Israel</option>
+                        <option value="Italy">Italy</option>
+                        <option value="Jamaica">Jamaica</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Jordan">Jordan</option>
+                        <option value="Kazakhstan">Kazakhstan</option>
+                        <option value="Kenya">Kenya</option>
+                        <option value="Kiribati">Kiribati</option>
+                        <option value="North Korea">North Korea</option>
+                        <option value="South Korea">South Korea</option>
+                        <option value="Kosovo">Kosovo</option>
+                        <option value="Kuwait">Kuwait</option>
+                        <option value="Kyrgyzstan">Kyrgyzstan</option>
+                        <option value="Laos">Laos</option>
+                        <option value="Latvia">Latvia</option>
+                        <option value="Lebanon">Lebanon</option>
+                        <option value="Lesotho">Lesotho</option>
+                        <option value="Liberia">Liberia</option>
+                        <option value="Libya">Libya</option>
+                        <option value="Liechtenstein">Liechtenstein</option>
+                        <option value="Lithuania">Lithuania</option>
+                        <option value="Luxembourg">Luxembourg</option>
+                        <option value="Macedonia">Macedonia</option>
+                        <option value="Madagascar">Madagascar</option>
+                        <option value="Malawi">Malawi</option>
+                        <option value="Malaysia">Malaysia</option>
+                        <option value="Maldives">Maldives</option>
+                        <option value="Mali">Mali</option>
+                        <option value="Malta">Malta</option>
+                        <option value="Marshall Islands">Marshall Islands</option>
+                        <option value="Mauritania">Mauritania</option>
+                        <option value="Mauritius">Mauritius</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="Micronesia">Micronesia</option>
+                        <option value="Moldova">Moldova</option>
+                        <option value="Monaco">Monaco</option>
+                        <option value="Mongolia">Mongolia</option>
+                        <option value="Montenegro">Montenegro</option>
+                        <option value="Morocco">Morocco</option>
+                        <option value="Mozambique">Mozambique</option>
+                        <option value="Myanmar">Myanmar</option>
+                        <option value="Namibia">Namibia</option>
+                        <option value="Nauru">Nauru</option>
+                        <option value="Nepal">Nepal</option>
+                        <option value="Netherlands">Netherlands</option>
+                        <option value="New Zealand">New Zealand</option>
+                        <option value="Nicaragua">Nicaragua</option>
+                        <option value="Niger">Niger</option>
+                        <option value="Nigeria">Nigeria</option>
+                        <option value="Northern Mariana Islands">Northern Mariana Islands</option>
+                        <option value="Norway">Norway</option>
+                        <option value="Oman">Oman</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Palau">Palau</option>
+                        <option value="Palestine, State of">Palestine, State of</option>
+                        <option value="Panama">Panama</option>
+                        <option value="Papua New Guinea">Papua New Guinea</option>
+                        <option value="Paraguay">Paraguay</option>
+                        <option value="Peru">Peru</option>
+                        <option value="Philippines">Philippines</option>
+                        <option value="Poland">Poland</option>
+                        <option value="Portugal">Portugal</option>
+                        <option value="Puerto Rico">Puerto Rico</option>
+                        <option value="Qatar">Qatar</option>
+                        <option value="Romania">Romania</option>
+                        <option value="Russia">Russia</option>
+                        <option value="Rwanda">Rwanda</option>
+                        <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                        <option value="Saint Lucia">Saint Lucia</option>
+                        <option value="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option>
+                        <option value="Samoa">Samoa</option>
+                        <option value="San Marino">San Marino</option>
+                        <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                        <option value="Saudi Arabia">Saudi Arabia</option>
+                        <option value="Senegal">Senegal</option>
+                        <option value="Serbia">Serbia</option>
+                        <option value="Seychelles">Seychelles</option>
+                        <option value="Sierra Leone">Sierra Leone</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="Sint Maarten">Sint Maarten</option>
+                        <option value="Slovakia">Slovakia</option>
+                        <option value="Slovenia">Slovenia</option>
+                        <option value="Solomon Islands">Solomon Islands</option>
+                        <option value="Somalia">Somalia</option>
+                        <option value="South Africa">South Africa</option>
+                        <option value="Spain">Spain</option>
+                        <option value="Sri Lanka">Sri Lanka</option>
+                        <option value="Sudan">Sudan</option>
+                        <option value="Sudan, South">Sudan, South</option>
+                        <option value="Suriname">Suriname</option>
+                        <option value="Swaziland">Swaziland</option>
+                        <option value="Sweden">Sweden</option>
+                        <option value="Switzerland">Switzerland</option>
+                        <option value="Syria">Syria</option>
+                        <option value="Taiwan">Taiwan</option>
+                        <option value="Tajikistan">Tajikistan</option>
+                        <option value="Tanzania">Tanzania</option>
+                        <option value="Thailand">Thailand</option>
+                        <option value="Togo">Togo</option>
+                        <option value="Tonga">Tonga</option>
+                        <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                        <option value="Tunisia">Tunisia</option>
+                        <option value="Turkey">Turkey</option>
+                        <option value="Turkmenistan">Turkmenistan</option>
+                        <option value="Tuvalu">Tuvalu</option>
+                        <option value="Uganda">Uganda</option>
+                        <option value="Ukraine">Ukraine</option>
+                        <option value="United Arab Emirates">United Arab Emirates</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="United States">United States</option>
+                        <option value="Uruguay">Uruguay</option>
+                        <option value="Uzbekistan">Uzbekistan</option>
+                        <option value="Vanuatu">Vanuatu</option>
+                        <option value="Vatican City">Vatican City</option>
+                        <option value="Venezuela">Venezuela</option>
+                        <option value="Vietnam">Vietnam</option>
+                        <option value="Virgin Islands, British">Virgin Islands, British</option>
+                        <option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option>
+                        <option value="Yemen">Yemen</option>
+                        <option value="Zambia">Zambia</option>
+                        <option value="Zimbabwe">Zimbabwe</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputuploadimage3" class="col-sm-3 control-label">Gender :</label>
+                  <div class="col-sm-9">
+                    <label class="radio-inline">
+                      <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Male
+                    </label>
+                    <label class="radio-inline">
+                      <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Female
+                    </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputName2" class="col-sm-3 control-label">Patient Name :</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder="Patient Name" required="required">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="examplebirth2" class="col-sm-3 control-label">Date of Birth :</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="examplebirth2" placeholder="Date of Birth" required="required">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="examplepassport2" class="col-sm-3 control-label">ID / Passport No :</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="examplepassport2" placeholder="National ID / Passport No" required="required">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="examplecontact2" class="col-sm-3 control-label">Contact No :</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="examplecontact2" placeholder="Contact No" required="required">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputEmail3" class="col-sm-3 control-label">Email :</label>
+                  <div class="col-sm-9">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputagree3" class="col-sm-3 control-label"></label>
+                  <div class="col-sm-9">
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox"> I Agree to the terms of use Condition.
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-offset-3 col-sm-9">
+                    <button type="submit" class="btn btn-danger">Submit</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!--========================================================================================
+                                              Footer section
+      ============================================================================================-->
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 emergency">
+              <h3 class="footer_head_section">Emergency Hotline</h3>
+              <p class="footer_dot_hr">------------------------------------</p>
+              <p class="emergency_number"><span><i class="fa fa-phone" aria-hidden="true"></i></span> +8801 000 000 000</p>
+              <p class="emergency_number"><span><i class="fa fa-phone" aria-hidden="true"></i></span> +8801 000 000 000</p>
+            </div>
+            <div class="col-md-3 emergency_appoinment">
+              <h3 class="footer_head_section">Appointment</h3>
+              <p class="footer_dot_hr">------------------------------------</p>
+              <p class="appointment_number"><span><i class="fa fa-phone" aria-hidden="true"></i></span> +8801 000 000 000</p>
+              <p class="appointment_number"><span><i class="fa fa-phone" aria-hidden="true"></i></span> +8801 000 000 000</p>
+              <p class="appointment_mail"><span><i class="fa fa-paper-plane-o" aria-hidden="true"></i></span> <a href="mailto:demo@demo.com">demo@demo.com</a></p>
+            </div>
+            <div class="col-md-3">
+              <h3 class="footer_head_section">Address</h3>
+              <p class="footer_dot_hr">------------------------------------</p>
+              <p class="address_info"><span><i class="fa fa-home" aria-hidden="true"></i></span> 4C &amp; D (3rd Floor), Haque Chember, 89/2, East Panthapath, Dhaka-1215, Bangladesh.</p>
+
+            </div>
+            <div class="col-md-3 all_pages">
+              <h3 class="footer_head_section">Page</h3>
+              <p class="footer_dot_hr">------------------------------------</p>
+                <p class="page_list"><a href="#"><span><i class="fa fa-link" aria-hidden="true"></i></span> FAQs</a></p>
+                <p class="page_list"><a href="#"><span><i class="fa fa-link" aria-hidden="true"></i></span> Terms and Conditions</a></p>
+                <p class="page_list"><a href="#"><span><i class="fa fa-link" aria-hidden="true"></i></span> Privacy Policy</a></p>
+                <p class="page_list"><a href="#"><span><i class="fa fa-link" aria-hidden="true"></i></span> Site Map</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--========================================================================================
+                                                Footer Botom Section
+      ============================================================================================-->
+      <div class="footer_botom_section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+               <p class="footer_botom_section_first_para">Copyright <sup> &copy;</sup> 2016 <a id="footer_botom_company _name" href="index.html" alt="Home" title="Home">JBFH</a> All Rights Reserved.</p>
+            </div>
+            <div class="col-md-6">
+              <ul class="list-inline pull-right footer_botom_section_link">
+                <li><a href="http://www.facebook.com/" class="facebook_footer" title="facebook"><span>[</span> <i class="fa fa-facebook" aria-hidden="true"></i> <span>]</span></a></li>
+                <li><a href="https://twitter.com/" class="twitter_footer" title="twitter"><span>[</span> <i class="fa fa-twitter" aria-hidden="true"></i> <span>]</span></a></li>
+                <li><a href="http://www.youtube.com/" class="youtube_footer" title="youtube"><span>[</span> <i class="fa fa-youtube" aria-hidden="true"></i> <span>]</span></a></li>
+                <li><a href="mailto:demo@demo.com" class="mail_footer" title="send mail"><span>[</span> <i class="fa fa-paper-plane" aria-hidden="true"></i> <span>]</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!--========================================================================================
+                                                Back To Top
+      ============================================================================================-->
+      <a title="Back to top" id="back-to-top" href="#" class="show"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a>
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="js/slick.min.js" type="text/javascript"></script>
+    <script src="js/bootstrapValidator.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap-datetimepicker.js" type="text/javascript"></script>
+    <script src="js/custom.js"></script>
+    <script type="text/javascript">
+      $('.form_datetime').datetimepicker({
+          //language:  'fr',
+          weekStart: 1,
+          todayBtn:  1,
+          autoclose: 1,
+          todayHighlight: 1,
+          startView: 2,
+          forceParse: 0,
+          showMeridian: 1
+      });
+    $('.form_date').datetimepicker({
+          language:  'fr',
+          weekStart: 1,
+          todayBtn:  1,
+          autoclose: 1,
+          todayHighlight: 1,
+          startView: 2,
+          minView: 2,
+          forceParse: 0
+      });
+    $('.form_time').datetimepicker({
+          language:  'fr',
+          weekStart: 1,
+          todayBtn:  1,
+        autoclose: 1,
+        todayHighlight: 1,
+        startView: 1,
+        minView: 0,
+        maxView: 1,
+        forceParse: 0
+      });
+  </script>
+  </body>
+</html>
