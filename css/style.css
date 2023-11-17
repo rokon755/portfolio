@@ -2609,6 +2609,14 @@ ul.specification--list li i.fa {
     font-weight: bold;
     margin-right: 5px;
 }
+p.the--projects--contibuted {
+    padding: 0px 0px 30px 25px;
+    font-size: 22px;
+    margin-top: -30px;
+}
+
+
+
 @media(max-width: 599px) {
   .portfolio--tab--section .tab button {
       width: 100%;
