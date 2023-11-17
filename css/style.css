@@ -430,8 +430,8 @@ body.dark .responsive-video {
 
 .divider .outer-line {
     width: 57px;
-    border-bottom: 3px solid #ddd;
-    border-radius: 50px;
+    border-bottom: 4px solid #ddd;
+    transform: skew(45deg, 0deg);
 }
 
 /* Preloader
