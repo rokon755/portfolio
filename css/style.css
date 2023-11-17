@@ -336,13 +336,23 @@ body.dark .responsive-video {
 }
 
 .page-title h2 {
-  font-size: 40px;
-  position: relative;
-  z-index: 0;
-  font-weight: 900;
-  text-transform: uppercase;
+    font-size: 40px;
+    position: relative;
+    z-index: 0;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Righteous';
 }
 
+.resume-container .valign-wrapper.row {
+    align-items: flex-start;
+}
+
+@media(min-width: 992px) {
+  .resume-container .valign-wrapper.row .resume-list.col.l4.section-padding {
+      padding-top: 50px !important;
+  }
+}
 .title-heading {
   position: absolute;
   width: 100%;
@@ -351,9 +361,11 @@ body.dark .responsive-video {
 }
 
 .bl-main>section.bl-expand .page-title h2 {
-  font-size: 50px;
-  font-family: 'Righteous', cursive;
-  font-family: 'Courgette', cursive;
+    font-size: 45px;
+    font-family: 'Righteous', cursive;
+    text-align: left;
+    padding-left: 22px;
+    margin-bottom: 0px;
 }
 
 .bl-main>section:not(.bl-expand):hover .page-title h2 span:first-child {
@@ -401,7 +413,9 @@ body.dark .responsive-video {
 .divider {
   overflow: inherit;
   background: none;
-  margin: 35px 0 62px;
+  margin: 0px 0 62px 0;
+  text-align: left;
+  padding-left: 25px;
 }
 
 .divider span {
@@ -415,10 +429,10 @@ body.dark .responsive-video {
 }
 
 .divider .outer-line {
-  width: 25%;
-  border-bottom: 1px solid #ddd;
+    width: 57px;
+    border-bottom: 3px solid #ddd;
+    border-radius: 50px;
 }
-
 
 /* Preloader
 ================================================== */
@@ -1027,9 +1041,11 @@ span.separator {
 .badges h3 i {
   color: #ddd;
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
-
+.more--details--with--projects h3 {
+    margin: 0;
+}
 
 /* Bottom Left Section - PORTFOLIO
 ================================================== */
