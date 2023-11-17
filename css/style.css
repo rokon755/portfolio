@@ -580,7 +580,9 @@ body.dark .responsive-video {
   transition: all 0.2s ease-in-out;
   z-index: 111;
 }
-
+.resume-list-item.is-active .resume-list-item-inner {
+    background: #026e00 !important;
+}
 .bl-main>section .bl-icon-close {
   position: absolute;
   top: -10px;
@@ -1018,7 +1020,7 @@ span.separator {
 
 .resume-list-item-title {
   margin: 0;
-  color: #9ae298;
+  color: #bccfbb;
   font-weight: 600;
   font-size: 18px;
 }
