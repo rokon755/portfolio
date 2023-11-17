@@ -581,7 +581,7 @@ body.dark .responsive-video {
   z-index: 111;
 }
 .resume-list-item.is-active .resume-list-item-inner {
-    background: #026e00 !important;
+    background: #00226d !important;
 }
 .bl-main>section .bl-icon-close {
   position: absolute;
@@ -2598,7 +2598,7 @@ ul.specification--list li i.fa {
     flex-wrap: wrap;
 }
 .more--details--used--technologis ul li {
-    padding-bottom: 13px;
+    padding-top: 10px;
     color: #00226d;
     font-size: 16px;
     width: 33.333%;
