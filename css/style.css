@@ -772,11 +772,13 @@ section.bl-expand .bl-icon-close {
 }
 
 .personal-info a.btn {
-  margin-top: -7px;
-  height: 42px;
-  line-height: 42px;
-  font-size: 15px;
-  float: left;
+    margin-top: 0px;
+    line-height: 42px;
+    font-size: 15px;
+    float: left;
+    padding: 10px 35px;
+    height: auto;
+    border-radius: 6px;
 }
 
 .personal-info a.btn:not(.btn-blog) {
@@ -996,7 +998,6 @@ span.separator {
 }
 
 .resume-list-item {
-  background: rgba(0, 0, 0, 0.1) !important;
   box-shadow: none;
 }
 
@@ -1004,15 +1005,12 @@ span.separator {
   background: #fff;
 }
 
-.resume-list-item:not(.is-active):hover {
-  background: rgba(0, 0, 0, 0.15) !important;
-}
-
 .resume-list-item-inner {
   display: flex;
   padding: 24px;
   align-items: center;
   font-size: 20px;
+  border-radius: 6px;
 }
 
 .resume-list-item.is-active {
