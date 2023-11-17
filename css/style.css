@@ -2639,4 +2639,11 @@ ul.specification--list li i.fa {
   .bl-main>section:nth-child(4).bl-expand .contact .rightside form button {
       width: 100%;
   }
+  .contact--info--box li a {
+      display: block !important;
+      word-break: break-word;
+  }
+  .contact--info--box ul.second-font.list-2 li span {
+      display: block !important;
+  }
 }
