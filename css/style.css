@@ -2614,7 +2614,9 @@ p.the--projects--contibuted {
     font-size: 22px;
     margin-top: -30px;
 }
-
+p.also--specification {
+    margin-bottom: 30px;
+}
 
 
 @media(max-width: 599px) {
@@ -2624,7 +2626,9 @@ p.the--projects--contibuted {
       background: #ddd;
       margin-bottom: 5px;
   }
-
+.resume-container {
+    padding: 40px 0 !important;
+}
   #bl-work-items>div {
     padding: 0px 0px 0 !important;
     margin-bottom: 15px;
@@ -2648,10 +2652,10 @@ p.the--projects--contibuted {
       width: 100%;
   }
   .contact--info--box li a {
-      display: block !important;
       word-break: break-word;
   }
-  .contact--info--box ul.second-font.list-2 li span {
-      display: block !important;
+ .contact--info--box ul.second-font.list-2 li span {
+      min-width: 0 !important;
+      margin-right: 5px !important;
   }
 }
