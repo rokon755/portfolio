@@ -569,8 +569,8 @@ body.dark .responsive-video {
 
 .bl-main>section .bl-icon-close {
   position: absolute;
-  top: 32px;
-  right: 32px;
+  top: 10px;
+  right: 10px;
   width: 50px;
   cursor: pointer;
   z-index: 100;
@@ -1192,6 +1192,7 @@ div.bl-panel-items.bl-panel-items-show .control-button.bl-icon-close {
   top: 54px;
   right: 54px;
   cursor: pointer;
+  max-width: 50px;
 }
 
 div.bl-panel-items nav span.bl-next-work,
@@ -2332,7 +2333,7 @@ body.blog .pagination li a i {
 
 /*Scroll Bar Design*/
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 0px;
 }
 
 ::-webkit-scrollbar-thumb {
