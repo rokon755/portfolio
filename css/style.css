@@ -1211,8 +1211,8 @@ div.bl-panel-items .control-button.bl-icon-close {
 div.bl-panel-items.bl-panel-items-show .control-button.bl-icon-close {
   display: block;
   position: fixed;
-  top: 54px;
-  right: 54px;
+  top: 10px;
+  right: 10px;
   cursor: pointer;
   max-width: 50px;
 }
