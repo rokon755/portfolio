@@ -1362,11 +1362,10 @@ div.bl-panel-items a.btn {
 /*** Left Side ***/
 
 .bl-main>section:nth-child(4).bl-expand .contact .leftside {
-  background: #f2f2f2;
-  color: #656c6d;
-  padding: 24px;
-  font-size: 16px;
-  border: 1px solid #ddd;
+    color: #656c6d;
+    padding: 0px 25px;
+    font-size: 16px;
+    border-left: 5px solid #ddd;
 }
 
 .bl-main>section:nth-child(4).bl-expand .contact .leftside h6 {
@@ -1459,7 +1458,7 @@ ul.social-intro li a {
     font-size: 16px;
     transition: 0.3s ease-in-out;
     border-radius: 6px;
-    padding: 11px 30px;
+    padding: 8px 25px;
     height: auto;
 }
 
