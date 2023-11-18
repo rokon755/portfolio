@@ -2661,3 +2661,12 @@ p.also--specification {
       margin-right: 5px !important;
   }
 }
+
+@media(max-width: 383px) {
+  .contact--info--box ul.second-font.list-2 li span {
+      font-size: 14px !important;
+  }
+  p.the--projects--contibuted {
+      padding: 0px 25px 30px 25px !important;
+  }
+}
