@@ -16,7 +16,7 @@ html {
 
 body {
   font-family: 'Lato', serif, Calibri, Arial;
-  color: #444258;
+  color: #004861;
   background: url(../images/banner/p4.png);
   font-size: 0.9em;
   font-weight: 400;
@@ -394,7 +394,7 @@ body.dark .responsive-video {
 }
 
 .page-title h2 span:first-child {
-  color: #444258;
+  color: #004861;
 }
 
 .page-title h2 span:first-child::before {
@@ -403,7 +403,7 @@ body.dark .responsive-video {
 
 .page-title h2 span:nth-child(2)::before {
   bottom: 105%;
-  color: #444258;
+  color: #004861;
   -webkit-filter: blur(0.000001px);
 }
 
@@ -582,7 +582,7 @@ body.dark .responsive-video {
   z-index: 111;
 }
 .resume-list-item.is-active .resume-list-item-inner {
-    background: #444258 !important;
+    background: #004861 !important;
 }
 .bl-main>section .bl-icon-close {
   position: absolute;
@@ -670,7 +670,7 @@ section.bl-expand .bl-icon-close {
 }
 
 .resume-card-body.education span.separator {
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 /* Top Left Section
@@ -709,7 +709,7 @@ section.bl-expand .bl-icon-close {
 }
 
 .bl-main>section.topleft .bl-box .ah-headline span:first-child {
-  color: #444258;
+  color: #004861;
   font-size: 20px;
   font-family: 'Righteous', cursive;
 }
@@ -728,7 +728,7 @@ section.bl-expand .bl-icon-close {
     font-size: 50px;
     display: block;
     margin: 15px 0 25px;
-    color: #444258;
+    color: #004861;
     font-family: 'Barlow Condensed';
     font-weight: 600;
 }
@@ -756,7 +756,7 @@ section.bl-expand .bl-icon-close {
     margin-top: 0;
     margin-bottom: 12px;
     font-weight: 500;
-    color: #444258;
+    color: #004861;
     font-family: 'Barlow Condensed';
     font-size: 24px;
     text-transform: capitalize;
@@ -768,7 +768,7 @@ section.bl-expand .bl-icon-close {
 
 .personal-info ul li {
   padding-bottom: 13px;
-  color: #444258;
+  color: #004861;
   font-size: 16px;
 }
 
@@ -953,7 +953,7 @@ section.bl-expand .bl-icon-close {
 .resume-card-body.experience .resume-content h6,
 .resume-card-body.education .resume-content h6 {
   margin-bottom: 10px;
-  color: #444258;
+  color: #004861;
   font-weight: 600;
   font-size: 18px;
 }
@@ -964,7 +964,7 @@ section.bl-expand .bl-icon-close {
     padding-top: 5px;
 }
 h5.expireance--my {
-  color: #444258;
+  color: #004861;
   font-size: 24px;
   font-family: 'Barlow Condensed';
   font-weight: 400;
@@ -977,7 +977,7 @@ h5.expireance--my {
 
 .resume-content h6 span {
   font-weight: 600;
-  color: #444258;
+  color: #004861;
 }
 
 .resume-content p {
@@ -2335,7 +2335,7 @@ body.blog .pagination li a i {
 
 .skills--section .resume-card-body.skills .resume-content h6 {
   font-weight: bold;
-  color: #444258;
+  color: #004861;
 }
 
 .skills--section .resume-card-body.skills .resume-content p.skills--star {
@@ -2546,7 +2546,7 @@ ul.some--specification li {
     color: #989ba1;
 }
 .contact--info--box li a {
-    color: #444258;
+    color: #004861;
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
@@ -2583,7 +2583,7 @@ ul.specification--list li i.fa {
 .more--details--used--technologis h3 {
     margin-bottom: 15px;
     font-weight: 500;
-    color: #444258;
+    color: #004861;
     font-family: 'Barlow Condensed';
     font-size: 24px;
     text-transform: capitalize;
@@ -2592,7 +2592,7 @@ ul.specification--list li i.fa {
 }
 .more--details--used--technologis h3 i.fa {
     font-weight: 500;
-    color: #444258;
+    color: #004861;
     margin-right: 13px;
 }
 .more--details--used--technologis ul {
@@ -2601,7 +2601,7 @@ ul.specification--list li i.fa {
 }
 .more--details--used--technologis ul li {
     padding-top: 10px;
-    color: #444258;
+    color: #004861;
     font-size: 16px;
     width: 50%;
     font-weight: 600;
@@ -2628,7 +2628,7 @@ p.also--specification {
     background: #f2f2f2 !important;
 }
 .resume-container .valign-wrapper.row .resume-list.col.l4.section-padding .resume-list-item-inner h6.resume-list-item-title.uppercase {
-    color: #444;
+    color: #004861;
 }
 .resume-container .valign-wrapper.row .resume-list.col.l4.section-padding .is-active .resume-list-item-inner {
     background: #1d9bf0 !important;
