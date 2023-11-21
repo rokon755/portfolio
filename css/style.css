@@ -958,7 +958,7 @@ section.bl-expand .bl-icon-close {
   font-size: 18px;
 }
 .resume-content h6 span.university--name {
-    color: #0554f2;
+    color: #1C6BEB;
     font-size: 16px;
     display: block;
     padding-top: 5px;
@@ -2369,7 +2369,7 @@ body.blog .pagination li a i {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #0554f2;
+  background: #1C6BEB;
 }
 
 ::-webkit-scrollbar-track {
@@ -2412,7 +2412,7 @@ body.blog .btn.back,
 div.bl-panel-items nav span.bl-previous-work,
 div.bl-panel-items nav span.bl-next-work,
 div.bl-panel-items nav span.bl-icon-close {
-  color: #0554f2 !important;
+  color: #1C6BEB !important;
 }
 
 .readmore.btn,
@@ -2432,11 +2432,11 @@ body.blog .pagination li.active,
 .comments-form button:active,
 body.blog .btn.back:hover,
 .personal-info a.btn.btn-blog:hover {
-  background: #0554f2 !important;
+  background: #1C6BEB !important;
 }
 
 .resume-cards-container .resume-card-name {
-  color: #0554f2 !important;
+  color: #1C6BEB !important;
 }
 
 
@@ -2466,7 +2466,7 @@ body.blog .btn.back:hover,
 }
 
 .portfolio--tab--section .tab button.active {
-  background-color: #0554f2;
+  background-color: #1C6BEB;
   color: #fff;
 }
 
@@ -2624,6 +2624,27 @@ p.also--specification {
 .col.s12.m12.l8.resume-cards-container.section-padding .resume-content p {
     padding-right: 0px;
 }
+.resume-container .valign-wrapper.row .resume-list.col.l4.section-padding .resume-list-item-inner {
+    background: #f2f2f2 !important;
+}
+.resume-container .valign-wrapper.row .resume-list.col.l4.section-padding .resume-list-item-inner h6.resume-list-item-title.uppercase {
+    color: #444;
+}
+.resume-container .valign-wrapper.row .resume-list.col.l4.section-padding .is-active .resume-list-item-inner {
+    background: #1C6BEB !important;
+}
+.resume-container .valign-wrapper.row .resume-list.col.l4.section-padding .is-active .resume-list-item-inner h6.resume-list-item-title.uppercase {
+    color: #fff;
+}
+hr {
+    border: 0px;
+    height: 1px;
+    background: #eee;
+}
+
+
+
+
 @media(max-width: 599px) {
   .portfolio--tab--section .tab button {
       width: 100%;
