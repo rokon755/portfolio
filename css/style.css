@@ -2641,10 +2641,29 @@ hr {
     height: 1px;
     background: #eee;
 }
+.qrcode--section--here img {
+    width: 100%;
+    max-width: 340px;
+}
+.bl-main>section:nth-child(4).bl-expand .contact .rightside {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-
-
-
+.qrcode--section--here {
+    margin-top: 25px;
+}
+.map--section--here {
+    margin-top: 47px;
+}
+.scan--section--here {
+    width: 50%;
+}
+.map--section--here {
+    margin-top: 47px;
+    width: 50%;
+}
 @media(max-width: 599px) {
   .portfolio--tab--section .tab button {
       width: 100%;
@@ -2652,6 +2671,16 @@ hr {
       background: #ddd;
       margin-bottom: 5px;
   }
+  .bl-main>section:nth-child(4).bl-expand .contact .rightside {
+    display: block !important;
+}
+.scan--section--here {
+    width: 100%;
+}
+.map--section--here {
+    margin-top: 15px;
+    width: 100%;
+}
 .resume-container {
     padding: 40px 0 !important;
 }
