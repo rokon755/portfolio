@@ -1309,6 +1309,7 @@ div.bl-panel-items a.btn {
   height: 42px;
   line-height: 42px;
   font-size: 15px;
+  border-radius: 50px;
 }
 
 .carousel .carousel-item>img {
