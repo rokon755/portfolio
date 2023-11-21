@@ -16,7 +16,7 @@ html {
 
 body {
   font-family: 'Lato', serif, Calibri, Arial;
-  color: #00226d;
+  color: #444258;
   background: url(../images/banner/p4.png);
   font-size: 0.9em;
   font-weight: 400;
@@ -336,12 +336,12 @@ body.dark .responsive-video {
 }
 
 .page-title h2 {
-    font-size: 40px;
+    font-size: 46px;
     position: relative;
     z-index: 0;
-    font-weight: 900;
+    font-weight: 600;
     text-transform: uppercase;
-    font-family: 'Righteous';
+    font-family: 'Barlow Condensed';
 }
 
 .resume-container .valign-wrapper.row {
@@ -361,11 +361,12 @@ body.dark .responsive-video {
 }
 
 .bl-main>section.bl-expand .page-title h2 {
-    font-size: 45px;
-    font-family: 'Righteous', cursive;
+    font-size: 48px;
+    font-family: 'Barlow Condensed';
     text-align: left;
     padding-left: 22px;
     margin-bottom: 0px;
+    font-weight: 600;
 }
 
 .bl-main>section:not(.bl-expand):hover .page-title h2 span:first-child {
@@ -393,7 +394,7 @@ body.dark .responsive-video {
 }
 
 .page-title h2 span:first-child {
-  color: #00226d;
+  color: #444258;
 }
 
 .page-title h2 span:first-child::before {
@@ -402,7 +403,7 @@ body.dark .responsive-video {
 
 .page-title h2 span:nth-child(2)::before {
   bottom: 105%;
-  color: #00226d;
+  color: #444258;
   -webkit-filter: blur(0.000001px);
 }
 
@@ -581,7 +582,7 @@ body.dark .responsive-video {
   z-index: 111;
 }
 .resume-list-item.is-active .resume-list-item-inner {
-    background: #00226d !important;
+    background: #444258 !important;
 }
 .bl-main>section .bl-icon-close {
   position: absolute;
@@ -708,7 +709,7 @@ section.bl-expand .bl-icon-close {
 }
 
 .bl-main>section.topleft .bl-box .ah-headline span:first-child {
-  color: #00226d;
+  color: #444258;
   font-size: 20px;
   font-family: 'Righteous', cursive;
 }
@@ -716,7 +717,7 @@ section.bl-expand .bl-icon-close {
 .bl-main>section.topleft .bl-box .ah-headline.clip .ah-words-wrapper {
   font-weight: 300;
   text-align: center;
-  font-size: 26px;
+  font-size: 28px;
   margin: 0 auto;
   display: block;
   text-transform: initial;
@@ -724,11 +725,12 @@ section.bl-expand .bl-icon-close {
 }
 
 .bl-main>section.topleft .bl-box .ah-headline.clip .my-name {
-  font-size: 40px;
-  display: block;
-  margin: 15px 0 30px;
-  color: #00226d;
-  font-family: 'Righteous', cursive;
+    font-size: 50px;
+    display: block;
+    margin: 15px 0 25px;
+    color: #444258;
+    font-family: 'Barlow Condensed';
+    font-weight: 600;
 }
 
 .bl-main>section.topleft .bl-box .ah-headline.clip .ah-words-wrapper::after {
@@ -754,7 +756,7 @@ section.bl-expand .bl-icon-close {
     margin-top: 0;
     margin-bottom: 12px;
     font-weight: 500;
-    color: #00226d;
+    color: #444258;
     font-family: 'Barlow Condensed';
     font-size: 24px;
     text-transform: capitalize;
@@ -766,7 +768,7 @@ section.bl-expand .bl-icon-close {
 
 .personal-info ul li {
   padding-bottom: 13px;
-  color: #00226d;
+  color: #444258;
   font-size: 16px;
 }
 
@@ -951,18 +953,18 @@ section.bl-expand .bl-icon-close {
 .resume-card-body.experience .resume-content h6,
 .resume-card-body.education .resume-content h6 {
   margin-bottom: 10px;
-  color: #00226d;
+  color: #444258;
   font-weight: 600;
   font-size: 18px;
 }
 .resume-content h6 span.university--name {
-    color: #08b305;
+    color: #0554f2;
     font-size: 16px;
     display: block;
     padding-top: 5px;
 }
 h5.expireance--my {
-  color: #00226d;
+  color: #444258;
   font-size: 24px;
   font-family: 'Barlow Condensed';
   font-weight: 400;
@@ -975,7 +977,7 @@ h5.expireance--my {
 
 .resume-content h6 span {
   font-weight: 600;
-  color: #00226d;
+  color: #444258;
 }
 
 .resume-content p {
@@ -2332,7 +2334,7 @@ body.blog .pagination li a i {
 
 .skills--section .resume-card-body.skills .resume-content h6 {
   font-weight: bold;
-  color: #00226d;
+  color: #444258;
 }
 
 .skills--section .resume-card-body.skills .resume-content p.skills--star {
@@ -2366,7 +2368,7 @@ body.blog .pagination li a i {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #08b305;
+  background: #0554f2;
 }
 
 ::-webkit-scrollbar-track {
@@ -2409,7 +2411,7 @@ body.blog .btn.back,
 div.bl-panel-items nav span.bl-previous-work,
 div.bl-panel-items nav span.bl-next-work,
 div.bl-panel-items nav span.bl-icon-close {
-  color: #08b305 !important;
+  color: #0554f2 !important;
 }
 
 .readmore.btn,
@@ -2429,11 +2431,11 @@ body.blog .pagination li.active,
 .comments-form button:active,
 body.blog .btn.back:hover,
 .personal-info a.btn.btn-blog:hover {
-  background: #08b305 !important;
+  background: #0554f2 !important;
 }
 
 .resume-cards-container .resume-card-name {
-  color: #08b305 !important;
+  color: #0554f2 !important;
 }
 
 
@@ -2441,7 +2443,7 @@ body.blog .btn.back:hover,
 .portfolio--tab--section .tab {
   overflow: hidden;
   border: 0px solid #ccc;
-  background-color: #f1f1f1;
+  background-color: #F8F9FA;
 }
 
 /* Style the buttons inside the tab */
@@ -2459,11 +2461,11 @@ body.blog .btn.back:hover,
 
 /* Change background color of buttons on hover */
 .portfolio--tab--section .tab button:hover {
-  background-color: #ddd;
+  background-color: #eee;
 }
 
 .portfolio--tab--section .tab button.active {
-  background-color: #08b305;
+  background-color: #0554f2;
   color: #fff;
 }
 
@@ -2543,7 +2545,7 @@ ul.some--specification li {
     color: #989ba1;
 }
 .contact--info--box li a {
-    color: #00226d;
+    color: #444258;
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
@@ -2580,7 +2582,7 @@ ul.specification--list li i.fa {
 .more--details--used--technologis h3 {
     margin-bottom: 15px;
     font-weight: 500;
-    color: #00226d;
+    color: #444258;
     font-family: 'Barlow Condensed';
     font-size: 24px;
     text-transform: capitalize;
@@ -2589,7 +2591,7 @@ ul.specification--list li i.fa {
 }
 .more--details--used--technologis h3 i.fa {
     font-weight: 500;
-    color: #00226d;
+    color: #444258;
     margin-right: 13px;
 }
 .more--details--used--technologis ul {
@@ -2598,9 +2600,9 @@ ul.specification--list li i.fa {
 }
 .more--details--used--technologis ul li {
     padding-top: 10px;
-    color: #00226d;
+    color: #444258;
     font-size: 16px;
-    width: 33.333%;
+    width: 50%;
     font-weight: 600;
 }
 .more--details--used--technologis ul li i.fa {
@@ -2668,6 +2670,10 @@ p.also--specification {
   }
   .contact--info--section {
       padding-right: 0px !important;
+  }
+
+  .divider {
+      margin: 0px 0 60px !important;
   }
 }
 
