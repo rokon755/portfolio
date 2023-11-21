@@ -2660,6 +2660,15 @@ p.also--specification {
       min-width: 0 !important;
       margin-right: 5px !important;
   }
+  .contact--info--box li a {
+      font-size: 13px !important;
+  }
+  .personal-info ul li {
+      font-size: 14px !important;
+  }
+  .contact--info--section {
+      padding-right: 0px !important;
+  }
 }
 
 @media(max-width: 383px) {
