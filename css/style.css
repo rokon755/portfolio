@@ -20,13 +20,14 @@ body {
   background: url(../images/banner/p4.png);
   font-size: 0.9em;
   font-weight: 400;
-  font-family: 'Lato', sans-serif;
 }
 
 .second-font {
   font-family: 'Lato', sans-serif;
 }
-
+ul.specification--list {
+    margin-top: 35px;
+}
 .p-none {
   padding: 0 !important;
 }
@@ -349,7 +350,7 @@ body.dark .responsive-video {
 }
 
 @media(min-width: 992px) {
-  .resume-container .valign-wrapper.row .resume-list.col.l4.section-padding {
+  .resume-container .valign-wrapper.row .resume-list.col.l5.section-padding {
       padding-top: 50px !important;
   }
 }
@@ -816,7 +817,6 @@ section.bl-expand .bl-icon-close {
   position: relative;
   margin: 0 auto;
   margin-top: 75px;
-  max-width: 645px;
 }
 
 .resume-card-2 {
@@ -958,7 +958,7 @@ section.bl-expand .bl-icon-close {
   font-size: 18px;
 }
 .resume-content h6 span.university--name {
-    color: #1d9bf0;
+    color: #0098FE;
     font-size: 16px;
     display: block;
     padding-top: 5px;
@@ -2369,7 +2369,7 @@ body.blog .pagination li a i {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #1d9bf0;
+  background: #0098FE;
 }
 
 ::-webkit-scrollbar-track {
@@ -2412,7 +2412,7 @@ body.blog .btn.back,
 div.bl-panel-items nav span.bl-previous-work,
 div.bl-panel-items nav span.bl-next-work,
 div.bl-panel-items nav span.bl-icon-close {
-  color: #1d9bf0 !important;
+  color: #0098FE !important;
 }
 
 .readmore.btn,
@@ -2432,11 +2432,11 @@ body.blog .pagination li.active,
 .comments-form button:active,
 body.blog .btn.back:hover,
 .personal-info a.btn.btn-blog:hover {
-  background: #1d9bf0 !important;
+  background: #0098FE !important;
 }
 
 .resume-cards-container .resume-card-name {
-  color: #1d9bf0 !important;
+  color: #0098FE !important;
 }
 
 
@@ -2466,7 +2466,7 @@ body.blog .btn.back:hover,
 }
 
 .portfolio--tab--section .tab button.active {
-  background-color: #1d9bf0;
+  background-color: #0098FE;
   color: #fff;
 }
 
@@ -2624,16 +2624,16 @@ p.also--specification {
 .col.s12.m12.l8.resume-cards-container.section-padding .resume-content p {
     padding-right: 0px;
 }
-.resume-container .valign-wrapper.row .resume-list.col.l4.section-padding .resume-list-item-inner {
+.resume-container .valign-wrapper.row .resume-list.col.l5.section-padding .resume-list-item-inner {
     background: #f2f2f2 !important;
 }
-.resume-container .valign-wrapper.row .resume-list.col.l4.section-padding .resume-list-item-inner h6.resume-list-item-title.uppercase {
+.resume-container .valign-wrapper.row .resume-list.col.l5.section-padding .resume-list-item-inner h6.resume-list-item-title.uppercase {
     color: #004861;
 }
-.resume-container .valign-wrapper.row .resume-list.col.l4.section-padding .is-active .resume-list-item-inner {
-    background: #1d9bf0 !important;
+.resume-container .valign-wrapper.row .resume-list.col.l5.section-padding .is-active .resume-list-item-inner {
+    background: #0098FE !important;
 }
-.resume-container .valign-wrapper.row .resume-list.col.l4.section-padding .is-active .resume-list-item-inner h6.resume-list-item-title.uppercase {
+.resume-container .valign-wrapper.row .resume-list.col.l5.section-padding .is-active .resume-list-item-inner h6.resume-list-item-title.uppercase {
     color: #fff;
 }
 hr {
@@ -2643,7 +2643,7 @@ hr {
 }
 .qrcode--section--here img {
     width: 100%;
-    max-width: 340px;
+    max-width: 310px;
 }
 .bl-main>section:nth-child(4).bl-expand .contact .rightside {
     display: flex;
