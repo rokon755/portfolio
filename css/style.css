@@ -543,11 +543,12 @@ body.dark .responsive-video {
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
-    box-shadow: 0px 0px 20px #D1D9E6, 0px 0px 20px #ffffff;
     border-radius: 6px;
+    background: linear-gradient(0deg, #f3f5f8, #ffffff) !important;
 }
 .bl-main>section:nth-child(1) {
     box-shadow: none !important;
+    background: transparent !important;
 }
 .bl-main>section:nth-child(2) {
   top: 24px;
@@ -715,9 +716,10 @@ section.bl-expand .bl-icon-close {
 }
 
 .bl-main>section.topleft .bl-box .ah-headline span:first-child {
-  color: #004861;
-  font-size: 20px;
-  font-family: 'Righteous', cursive;
+    color: #004861;
+    font-size: 26px;
+    font-family: 'Barlow Condensed';
+    font-weight: 400;
 }
 
 .bl-main>section.topleft .bl-box .ah-headline.clip .ah-words-wrapper {
