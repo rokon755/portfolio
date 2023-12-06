@@ -17,7 +17,7 @@ html {
 body {
   font-family: 'Lato', serif, Calibri, Arial;
   color: #004861;
-  background: url(../images/banner/p4.png);
+  background: #F2F5F8;
   font-size: 0.9em;
   font-weight: 400;
 }
@@ -522,7 +522,7 @@ body.dark .responsive-video {
 /* [ SECTIONS ] */
 
 
-/*================================================== */
+/* ================================================== */
 
 .bl-main {
   position: absolute;
@@ -537,14 +537,18 @@ body.dark .responsive-video {
 }
 
 .bl-main>section {
-  position: absolute;
-  width: calc(50% - 24px);
-  height: calc(50% - 36px);
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+    position: absolute;
+    width: calc(50% - 24px);
+    height: calc(50% - 36px);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0px 0px 20px #D1D9E6, 0px 0px 20px #ffffff;
+    border-radius: 6px;
 }
-
+.bl-main>section:nth-child(1) {
+    box-shadow: none !important;
+}
 .bl-main>section:nth-child(2) {
   top: 24px;
   left: 50%;
@@ -959,7 +963,7 @@ section.bl-expand .bl-icon-close {
   font-size: 18px;
 }
 .resume-content h6 span.university--name {
-    color: #0098FE;
+    color: #e97d34;
     font-size: 16px;
     display: block;
     padding-top: 5px;
@@ -2370,7 +2374,7 @@ body.blog .pagination li a i {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #0098FE;
+  background: #e97d34;
 }
 
 ::-webkit-scrollbar-track {
@@ -2413,7 +2417,7 @@ body.blog .btn.back,
 div.bl-panel-items nav span.bl-previous-work,
 div.bl-panel-items nav span.bl-next-work,
 div.bl-panel-items nav span.bl-icon-close {
-  color: #0098FE !important;
+  color: #e97d34 !important;
 }
 
 .readmore.btn,
@@ -2433,11 +2437,11 @@ body.blog .pagination li.active,
 .comments-form button:active,
 body.blog .btn.back:hover,
 .personal-info a.btn.btn-blog:hover {
-  background: #0098FE !important;
+  background: #e97d34 !important;
 }
 
 .resume-cards-container .resume-card-name {
-  color: #0098FE !important;
+  color: #e97d34 !important;
 }
 
 
@@ -2467,7 +2471,7 @@ body.blog .btn.back:hover,
 }
 
 .portfolio--tab--section .tab button.active {
-  background-color: #0098FE;
+  background-color: #e97d34;
   color: #fff;
 }
 
@@ -2632,7 +2636,7 @@ p.also--specification {
     color: #004861;
 }
 .resume-container .valign-wrapper.row .resume-list.col.l5.section-padding .is-active .resume-list-item-inner {
-    background: #0098FE !important;
+    background: #e97d34 !important;
 }
 .resume-container .valign-wrapper.row .resume-list.col.l5.section-padding .is-active .resume-list-item-inner h6.resume-list-item-title.uppercase {
     color: #fff;
