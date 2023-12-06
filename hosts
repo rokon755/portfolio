@@ -1,0 +1,190 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+# 102.54.94.97 rhino.acme.com # source server
+# 38.25.63.10 x.acme.com # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1 localhost
+#	::1 localhost
+
+
+
+127.0.0.1 dev.245newarkavenue
+127.0.0.1 dev.333grandstreet
+127.0.0.1 dev.88-regent-street
+127.0.0.1 dev.88regentstreet--pantheon
+127.0.0.1 dev.affordablemoving
+127.0.0.1 dev.airline
+127.0.0.1 dev.alljerseymovers
+127.0.0.1 dev.alpacaaudiology
+127.0.0.1 dev.archivedocmentstorage
+127.0.0.1 dev.belsono-hearing
+127.0.0.1 dev.belsono-usa
+127.0.0.1 dev.borman
+127.0.0.1 dev.bsmmru
+127.0.0.1 dev.car
+127.0.0.1 dev.chaldal
+127.0.0.1 dev.child-alpacaaudiology
+127.0.0.1 dev.cityzen-rose
+127.0.0.1 dev.clapam
+127.0.0.1 dev.clearbrookglobal
+127.0.0.1 dev.clearbrookinnovationfund
+127.0.0.1 dev.clearimpactventure
+127.0.0.1 dev.consultcra
+127.0.0.1 dev.corporate
+127.0.0.1 dev.corporatetheme
+127.0.0.1 dev.creative-assembly-systems
+127.0.0.1 dev.d8-directors-and-boards
+127.0.0.1 dev.d8-epolin
+127.0.0.1 dev.d8-privatecompanydirector #laragon magic!
+127.0.0.1 dev.d8dir
+127.0.0.1 dev.d9-epolin
+127.0.0.1 dev.dakotaco
+127.0.0.1 dev.dakotafunds
+127.0.0.1 dev.dashboard
+127.0.0.1 dev.dcpa
+127.0.0.1 dev.del-busque-farms
+127.0.0.1 dev.demoxplantr
+127.0.0.1 dev.digital-firefly-marketing-live
+127.0.0.1 dev.dir
+127.0.0.1 dev.directorandboards-d9
+127.0.0.1 dev.directorsandboards-d9-old
+127.0.0.1 dev.dressboost
+127.0.0.1 dev.elliottwislar
+127.0.0.1 dev.emt-live
+127.0.0.1 dev.environmental-leader
+127.0.0.1 dev.environmental-leader-buyers-guide-update
+127.0.0.1 dev.epolin
+127.0.0.1 dev.epolin-wp
+127.0.0.1 dev.epolin-wp--old
+127.0.0.1 dev.faithonlinestore
+127.0.0.1 dev.familybusinessmagazine
+127.0.0.1 dev.familybusinessmagazine-d9
+127.0.0.1 dev.foneboxusa
+127.0.0.1 dev.food-reporting
+127.0.0.1 dev.gcb-new
+127.0.0.1 dev.globalsolutions
+127.0.0.1 dev.gold-coast-broadband
+127.0.0.1 dev.gold-coast-broadband-cord-cutter
+127.0.0.1 dev.gold-coast-broadband-live
+127.0.0.1 dev.guarini
+127.0.0.1 dev.guarini-pantheon
+127.0.0.1 dev.gym-management
+127.0.0.1 dev.gym-onepage-template
+127.0.0.1 dev.hair-fusion-bar
+127.0.0.1 dev.halal-hut
+127.0.0.1 dev.harrison-rand
+127.0.0.1 dev.hearing-health-care
+127.0.0.1 dev.hearing-health-usa
+127.0.0.1 dev.hearinghealthusa
+127.0.0.1 dev.historic-downtown
+127.0.0.1 dev.hooks-book-events
+127.0.0.1 dev.idia-dfm
+127.0.0.1 dev.img
+127.0.0.1 dev.insiteintelligence
+127.0.0.1 dev.insiteintelligence-live
+127.0.0.1 dev.john-preston
+127.0.0.1 dev.knotch
+127.0.0.1 dev.letsgooutsidebox
+127.0.0.1 dev.liberty-harbor-parking
+127.0.0.1 dev.liberty-harbor-wp
+127.0.0.1 dev.liberty-harbor-wp--old
+127.0.0.1 dev.libertyharbormarina
+127.0.0.1 dev.libertyharbormarina_new
+127.0.0.1 dev.libertyharborrv
+127.0.0.1 dev.luckycloverpackaging
+127.0.0.1 dev.madrasa
+127.0.0.1 dev.maralliance
+127.0.0.1 dev.marmontpartners
+127.0.0.1 dev.mattquag
+127.0.0.1 dev.mlr-holdings
+127.0.0.1 dev.mlrmedia
+127.0.0.1 dev.moda404
+127.0.0.1 dev.Mondy
+127.0.0.1 dev.motorsbaybd
+127.0.0.1 dev.mussotra
+127.0.0.1 dev.mussotra-new
+127.0.0.1 dev.mycotech-pharma
+127.0.0.1 dev.natrowing
+127.0.0.1 dev.networkwise
+127.0.0.1 dev.niners
+127.0.0.1 dev.novaclear
+127.0.0.1 dev.nova
+127.0.0.1 dev.orangehrm
+127.0.0.1 dev.parking-rent-system
+127.0.0.1 dev.payrollfundings
+127.0.0.1 dev.payrollfundingslive
+127.0.0.1 dev.pet-supplies
+127.0.0.1 dev.polymathes
+127.0.0.1 dev.pranfoods
+127.0.0.1 dev.pranfoods-d9
+127.0.0.1 dev.pranfoodslive
+127.0.0.1 dev.primemetals
+127.0.0.1 dev.private-company-director
+127.0.0.1 dev.propertylifts
+127.0.0.1 dev.raineater-wp
+127.0.0.1 dev.rayyanocnt
+127.0.0.1 dev.rayyanocnt-d8
+127.0.0.1 dev.rayyanokids-d9
+127.0.0.1 dev.rayyanomart
+127.0.0.1 dev.rayyanopower
+127.0.0.1 dev.reckoning-familybusinessmagazine
+127.0.0.1 dev.rental-application
+127.0.0.1 dev.rfl-walker
+127.0.0.1 dev.rfl-walker--
+127.0.0.1 dev.ridebustang
+127.0.0.1 dev.rupshaair
+127.0.0.1 dev.safwaanfoods
+127.0.0.1 dev.sarkerenergy
+127.0.0.1 dev.school-portal
+127.0.0.1 dev.school-portalv2
+127.0.0.1 dev.sellmyaudiologypractice
+127.0.0.1 dev.services-company
+127.0.0.1 dev.stylebuz
+127.0.0.1 dev.surfcity
+127.0.0.1 dev.surfcity--bitbucket
+127.0.0.1 dev.surfcitybar--old
+127.0.0.1 dev.talix
+127.0.0.1 dev.talix-live
+127.0.0.1 dev.taxpedia
+127.0.0.1 dev.teletell
+127.0.0.1 dev.the-klog
+127.0.0.1 dev.thehearingshop
+127.0.0.1 dev.thepropertypark-new
+127.0.0.1 dev.thewalkoflife
+127.0.0.1 dev.tms-new
+127.0.0.1 dev.toyworldbd
+127.0.0.1 dev.university-portal
+127.0.0.1 dev.us-rowing
+127.0.0.1 dev.usrowing
+127.0.0.1 dev.utca
+127.0.0.1 dev.vigo
+127.0.0.1 dev.visionemporiumeshop
+127.0.0.1 dev.windows-nation
+127.0.0.1 dev.xerpv5
+127.0.0.1 dev.xerpvfive
+127.0.0.1 dev.xplantr-e-commerce
+127.0.0.1 dev.xplantr-groceries
+127.0.0.1 dev.xplantr-services
+127.0.0.1 dev.xplantrs
+127.0.0.1 dev.zepplinhall
+127.0.0.1 dev.xplantrmultivandor
+127.0.0.1 dev.xbscrm
+127.0.0.1 dev.xbs
+127.0.0.1 dev.dfmsite
+127.0.0.1 dev.siteanalyzer
+127.0.0.1 dev.teletellnew
+127.0.0.1 dev.rupshaairnews
