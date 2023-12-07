@@ -256,7 +256,9 @@ body.dark .bl-main>section:nth-child(4).bl-expand .contact .rightside .input-fie
 body.dark div.bl-panel-items>div>div hr {
   background: #333;
 }
-
+.resume-card-name i.fa {
+    margin-right: 10px;
+}
 body.blog.dark p,
 body.blog.dark .meta span {
   color: #eee;
@@ -677,7 +679,8 @@ section.bl-expand .bl-icon-close {
 }
 
 .resume-card-body.education span.separator {
-  margin-top: 25px;
+    margin-top: 25px;
+    background: #eeeeee !important;
 }
 
 /* Top Left Section
@@ -922,7 +925,7 @@ section.bl-expand .bl-icon-close {
 .resume-card-name {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 20px;
   transition: .3s ease opacity;
   opacity: .8;
 }
@@ -965,7 +968,7 @@ section.bl-expand .bl-icon-close {
   font-size: 18px;
 }
 .resume-content h6 span.university--name {
-    color: #e97d34;
+    color: #a5a09e;
     font-size: 16px;
     display: block;
     padding-top: 5px;
