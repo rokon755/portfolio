@@ -26,8 +26,8 @@ body {
   font-family: 'Lato', sans-serif;
 }
 ul.specification--list {
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .p-none {
   padding: 0 !important;
@@ -352,7 +352,7 @@ body.dark .responsive-video {
 
 @media(min-width: 992px) {
   .resume-container .valign-wrapper.row .resume-list.col.l5.section-padding {
-      padding-top: 50px !important;
+      padding-top: 15px !important;
   }
 }
 .title-heading {
@@ -433,7 +433,7 @@ body.dark .responsive-video {
 
 .divider .outer-line {
     width: 57px;
-    border-bottom: 4px solid #ddd;
+    border-bottom: 4px solid #eee;
     transform: skew(45deg, 0deg);
 }
 
@@ -595,7 +595,7 @@ body.dark .responsive-video {
   position: absolute;
   top: -15px;
   right: -15px;
-  width: 50px;
+  width: 45px;
   cursor: pointer;
   z-index: 100;
   opacity: 0;
@@ -671,9 +671,9 @@ section.bl-expand .bl-icon-close {
 
 .bl-content p {
   margin: 0px auto;
-  font-size: 18px;
+  font-size: 17px;
   color: #656c6d;
-  padding-right: 100px;
+  padding-right: 15px;
 }
 
 .resume-card-body.education span.separator {
@@ -936,7 +936,7 @@ section.bl-expand .bl-icon-close {
   padding: 24px;
   display: flex;
   flex-flow: column;
-  min-height: 550px;
+  min-height: 580px;
 }
 
 .resume-content {
@@ -2091,7 +2091,7 @@ body.blog .pagination li a i {
   .bl-main>section:nth-child(4).bl-expand .contact .leftside {
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 24px;
+    padding-bottom: 0px;
   }
 
   body.blog .container.page-title h2 {
@@ -2542,7 +2542,7 @@ ul.some--specification li {
     padding: 0px 20px;
     border-radius: 0px;
     margin-bottom: 30px;
-    border-left: 5px solid #eee;
+    border-left: 5px solid #F2F5F8;
 }
 .contact--info--box li span.font-weight-700 {
     min-width: 95px;
@@ -2571,6 +2571,7 @@ ul.some--specification li {
 .contact--info--box ul.second-font.list-2 li span i.fa {
     font-weight: 600;
     margin-right: 5px;
+    color: #ce8343;
 }
 @media(min-width: 1024px) {
   ul.specification--list {
@@ -2587,6 +2588,7 @@ ul.specification--list li {
 ul.specification--list li i.fa {
     font-weight: bold;
     margin-right: 5px;
+    color: #ce8343;
 }
 .more--details--used--technologis h3 {
     margin-bottom: 15px;
@@ -2625,6 +2627,7 @@ p.the--projects--contibuted {
 }
 p.also--specification {
     margin-bottom: 30px;
+    color: #004861;
 }
 .bl-main>section:nth-child(4).bl-expand .contact .leftside span a {
     color: #656c6d;
@@ -2633,7 +2636,7 @@ p.also--specification {
     padding-right: 0px;
 }
 .resume-container .valign-wrapper.row .resume-list.col.l5.section-padding .resume-list-item-inner {
-    background: #f2f2f2 !important;
+    background: #eee !important;
 }
 .resume-container .valign-wrapper.row .resume-list.col.l5.section-padding .resume-list-item-inner h6.resume-list-item-title.uppercase {
     color: #004861;
@@ -2672,6 +2675,33 @@ hr {
     margin-top: 47px;
     width: 50%;
 }
+
+
+.career--obj--summary {
+    display: flex;
+}
+.career--obj--summary p.second-font {
+    padding: 0px;
+}
+.career--obj--summary .one, .career--obj--summary .two {
+    width: 50%;
+    border: 0px solid #eee;
+}
+.career--obj--summary .one {
+    background: #F2F5F8;
+    margin-right: 1%;
+    padding: 30px;
+    border-radius: 6px;
+}
+.career--obj--summary .two {
+    background: #F2F5F8;
+    margin-left: 1%;
+    padding: 30px;
+    border-radius: 6px;
+}
+
+
+
 @media(max-width: 599px) {
   .portfolio--tab--section .tab button {
       width: 100%;
@@ -2734,6 +2764,10 @@ hr {
   .divider {
       margin: 0px 0 60px !important;
   }
+  .skills--section .resume-card-body.skills .resume-content h6 {
+      font-size: 14px !important;
+      text-transform: capitalize;
+  }
 }
 
 @media(max-width: 383px) {
@@ -2743,4 +2777,26 @@ hr {
   p.the--projects--contibuted {
       padding: 0px 25px 30px 25px !important;
   }
+}
+
+@media(max-width: 1023px) {
+  .career--obj--summary {
+      display: block !important;
+  }
+  .career--obj--summary .one, .career--obj--summary .two {
+      width: 100%;
+      border: 0px solid #eee;
+  }
+  .career--obj--summary .one, .career--obj--summary .two {
+      width: 100%;
+      border: 0px solid #eee;
+      background: transparent !important;
+      padding: 30px 0px 30px !important;
+      margin: 0px !important;
+      border-bottom: 1px solid #eee;
+      border-radius: 0px !important;
+  }
+  .career--obj--summary hr {
+    display: none;
+}
 }
