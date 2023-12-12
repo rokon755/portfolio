@@ -128,14 +128,15 @@ ul.specification--list {
 }
 
 .main-picture.men {
-  background-image: url("../images/men.jpg");
-  padding: 0;
-  margin-top: 24px;
-  margin-left: 24px;
-  height: calc(100vh - 48px);
-  background-size: cover;
-  background-position: center center;
-  width: calc(33.3333333333% - 48px);
+    background-image: url(../images/new_man.jpg);
+    padding: 0;
+    margin-top: 24px;
+    margin-left: 24px;
+    height: calc(100vh - 48px);
+    background-size: cover;
+    background-position: center center;
+    width: calc(33.3333333333% - 48px);
+    border-radius: 6px;
 }
 
 .main-picture.woman {
