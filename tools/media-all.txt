@@ -1,0 +1,124 @@
+@media (min-width: 1920px) and (max-width: 2200px){
+    
+}
+
+@media (min-width: 1680px) and (max-width: 1919px){
+    
+}
+
+@media (min-width: 1600px) and (max-width: 1679px){
+    
+}
+
+@media (min-width: 1440px) and (max-width: 1599px){
+    
+}
+
+@media (min-width: 1366px) and (max-width: 1439px){
+    
+}
+
+@media (min-width: 1280px) and (max-width: 1365px){
+    
+}
+
+@media (min-width: 1224px) and (max-width: 1279px){
+    
+}
+
+@media (min-width: 1200px) and (max-width: 1223px){
+    
+}
+
+@media (min-width: 1024px) and (max-width: 1199px){
+    
+}
+
+@media (min-width: 992px) and (max-width: 1023px){
+    
+}
+
+@media (min-width: 960px) and (max-width: 991px){
+    
+}
+
+@media (min-width: 950px) and (max-width: 959px){
+    
+}
+
+@media (min-width: 900px) and (max-width: 949px){
+    
+}
+
+@media (min-width: 854px) and (max-width: 899px){
+    
+}
+
+@media (min-width: 812px) and (max-width: 853px){
+    
+}
+
+@media (min-width: 800px) and (max-width: 811px){
+    
+}
+
+
+@media (min-width: 768px) and (max-width: 799px){
+    
+}
+
+@media (min-width: 736px) and (max-width: 767px){
+    
+}
+
+@media (min-width: 732px) and (max-width: 735px){
+    
+}
+
+@media (min-width: 667px) and (max-width: 731px){
+
+}
+
+@media (min-width: 640px) and (max-width: 666px){
+    
+}
+
+@media (min-width: 600px) and (max-width: 639px){
+    
+}
+
+@media (min-width: 568px) and (max-width: 599px){
+    
+}
+
+@media (min-width: 533px) and (max-width: 567px){
+    
+}
+
+@media (min-width: 480px) and (max-width: 532px){
+    
+}
+
+@media (min-width: 414px) and (max-width: 479px){
+    
+}
+
+@media (min-width: 412px) and (max-width: 413px){
+    
+}
+
+@media (min-width: 384px) and (max-width: 411px){
+    
+}
+
+@media (min-width: 375px) and (max-width: 383px){
+    
+}
+
+@media (min-width: 360px) and (max-width: 374px){
+	
+}
+
+@media (min-width: 320px) and (max-width: 359px){
+
+}

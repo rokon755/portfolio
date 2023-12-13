@@ -1,0 +1,9 @@
+C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Git\cmd;D:\xampp\mysql\bin;C:\Program Files (x86)\nodejs\;C:\ProgramData\chocolatey\bin;
+
+
+
+C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Git\cmd;D:\xampp\mysql\bin;C:\Program Files (x86)\nodejs\;C:\ProgramData\chocolatey\bin;;C:\Users\XPLANTR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\XPLANTR\AppData\Roaming\Composer\vendor\bin;D:\xampp\htdocs\d9-epolin\vendor\drush\drush
+
+
+
+C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\xampp\php;C:\composer;D:\xampp\htdocs\d9-epolin\vendor\drush\drush;%systemroot%\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\PowerShell\7\

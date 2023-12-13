@@ -1,0 +1,8 @@
+<div class="media--outlet--logo">
+						<?php
+
+						$img_id = get_post_meta(get_the_id(), 'media_outlet_logo', true);
+						$img_url = wp_get_attachment_image($img_id);
+						echo $img_url; ?>
+							
+						</div>

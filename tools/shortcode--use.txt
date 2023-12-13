@@ -1,0 +1,53 @@
+function private_party( $atts ){
+$args = array(
+	'posts_per_page'   => -1,
+	'post_type'        => 'private_party',
+	'post_status'      => 'publish',
+);
+$posts_array = new WP_Query( $args );
+$flag = 0;
+if ( $posts_array->have_posts() ) {
+	$html = '<div class="private--party--box">
+				<div class="container">';
+	while ( $posts_array->have_posts() ) {
+		if($flag % 2 == 0){
+			$class = 'even';
+		}else{
+			$class = 'odd';
+		}
+		$posts_array->the_post();
+		$html .= '<div class="row '.$class.'">
+					<div class="col-md-6 col-sm-6 col-xs-6"> 
+						<div class="private_party---image">'. get_the_post_thumbnail() .'</div>
+				  	</div>
+					  <div class="col-md-6 col-sm-6 col-xs-6"> 
+						<div class="private_party--content">
+							<h3>'. get_the_title() .'</h3>
+							<p>'. get_the_content() .'</p>
+							<a href="'. get_the_permalink() .'">Book Now</a>
+						</div>
+					  </div>
+				  </div>';
+		  $flag++;
+		}
+
+	$html .= '</div>
+			</div>';
+	
+
+	wp_reset_postdata();
+
+	return $html;
+}
+}
+add_shortcode( 'private_party_section', 'private_party' );
+
+
+
+
+
+
+
+use Plagins
+Advance custom filds
+Custom Post Type UI

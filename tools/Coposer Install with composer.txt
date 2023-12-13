@@ -1,0 +1,4 @@
+$ composer global require drush/drush:10.x
+$ composer config --global home
+$ composer global update drush/drush
+$ drush cr

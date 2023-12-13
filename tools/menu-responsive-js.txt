@@ -1,0 +1,79 @@
+jQuery(document).ready(function($){
+    /*Dropdown Parent menu link open in current tab if there is a link*/
+    $('#primary-menu .dropdown').each(function(){
+        $(this).find('.dropdown-toggle').eq(0).click(function(){
+            if( $(this).attr('href') != '' && $(this).attr('href') != '#' ){
+                window.open($(this).attr('href'), '_self');
+            }
+
+        });
+    });
+
+    /*Adding a span for showing arrow and opening dropdown on click over it*/
+    if( $(window).width() < 992 ){
+        $('#primary-menu > .dropdown > .dropdown-toggle').after('<span class="dropdown-arrow"></span>');
+        $('#primary-menu > .dropdown').each(function(){
+            $(this).find('.dropdown-arrow').eq(0).click(function(){
+                $(this).parent().find('.dropdown-menu').eq(0).slideToggle();
+            });
+        });
+    }
+
+});
+
+/*Adding & Removing the span for showing arrow based on screen size and opening dropdown on click over it*/
+jQuery(window).resize(function(){
+    if( jQuery(window).width() < 992 ){
+        jQuery('#primary-menu > .dropdown > .dropdown-toggle').after('<span class="dropdown-arrow"></span>');
+        jQuery('#primary-menu > .dropdown').each(function(){
+            jQuery(this).find('.dropdown-arrow').eq(0).click(function(){
+                jQuery(this).parent().find('.dropdown-menu').eq(0).slideToggle();
+            });
+        });
+    } else{
+        jQuery('.dropdown-arrow').remove();
+    }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Dropdown Menu function css*/
+@media screen and (max-width:991px){
+    #primary-menu .dropdown-toggle::after{display:none !important}
+    #primary-menu .dropdown > a{
+        z-index:1;
+        position:relative;
+        padding-right:50px;
+    }
+    #primary-menu .dropdown .dropdown-arrow {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+    padding: 15px;
+}
+    #primary-menu .dropdown .dropdown-arrow:after{
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin-left: 0.255em;
+        vertical-align: 0.255em;
+        content: "";
+        border-top: 0.3em solid;
+        border-right: 0.3em solid transparent;
+        border-bottom: 0;
+        border-left: 0.3em solid transparent;
+    }
+}

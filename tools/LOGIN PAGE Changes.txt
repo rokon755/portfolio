@@ -1,0 +1,190 @@
+/*@ Change WordPress Admin Login Logo */
+if ( !function_exists('lgob_wp_admin_login_logo') ) :
+ 
+    function lgob_wp_admin_login_logo() { ?>
+        <style type="text/css">
+            body.digits_login_form {
+                background: #eee;
+                font-family: 'Work Sans', sans-serif !important;
+            }
+            body.login.js.login-action-login {
+                background: url(https://healthfidelity.edifecs.com/wp-content/uploads/layerslider/Front-Page-Slider-April-2019-v2/Health-Fidelity-HITRUST-CSF-Certified-bkg.jpg);
+                background-size: cover;
+                position: relative;
+            }
+			.login-action-lostpassword {
+				background: url(https://healthfidelity.edifecs.com/wp-content/uploads/layerslider/Front-Page-Slider-April-2019-v2/Health-Fidelity-HITRUST-CSF-Certified-bkg.jpg);
+				background-size: cover;
+				position: relative;
+			}
+            #login {
+                width:100% !important;
+                max-width: 410px !important;
+            }
+            .login .privacy-policy-page-link {
+                margin: 0px 0 0em !important;
+                max-width: 385px !important;
+            }
+            #login form p.forgetmenot {
+                padding-top: 0px !important;
+                padding-bottom: 25px;
+            }
+            .login #login_error, .login .message, .login .success {
+                border-left: 4px solid #ffffff !important;
+            }
+            body.login.js.login-action-login::before {
+                content: "";
+                position: absolute; 
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0,0,0,0.4);
+            }
+            form#loginform {
+                position: relative;
+            }
+            form#loginform .user-pass-wrap {
+                width: 100%;
+            }
+            body.login.js.login-action-login div#login h1 a {
+				background: transparent url(/wp-content/uploads/HF-Edifecs-Union-Blue-Web-Logo.png) no-repeat;
+				background-size: 70% 70%;
+				width: 100%;
+				background-color: #fff;
+				margin-bottom: 0;
+				background-position: center;
+			}
+			.login-action-lostpassword h1 a {
+				background: transparent url(/wp-content/uploads/HF-Edifecs-Union-Blue-Web-Logo.png) no-repeat !important;
+				background-size: 70% 70% !important;
+				width: 100% !important;
+				background-color: #fff;
+				margin-bottom: 0 !important;
+				background-position: center !important;
+			}
+			.login form {
+				padding: 10px 24px 34px !important;
+			}
+            .login #nav {
+                margin: -1px 0 0 !important;
+                background: #fff;
+                position: relative;
+            }
+            form#loginform {
+                position: relative;
+                border: 0px;
+            }
+			.login form .input, .login input[type=password], .login input[type=text] {
+				min-height: 50px !important;
+			}
+            .login #backtoblog {
+                background: #fff;
+                position: relative;
+                margin: 0px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+            .login .privacy-policy-page-link {
+                text-align: center;
+                width: 100%;
+                margin: 0em 0 2em;
+                background: #fff;
+                position: relative;
+                padding-bottom: 20px;
+            }
+            form#loginform div#return-to-pantheon {
+                display: none !important;
+            }
+            div.digor {
+                text-align: center;
+                font-weight: bold !important;
+                font-size: 14px !important;
+                padding-top: 6px;
+            }
+            .login .privacy-policy-page-link {
+                text-align: left;
+                width: auto;
+                margin: 0em 0 0em;
+                background: #fff;
+                position: relative;
+                padding-bottom: 20px;
+                padding-left: 25px;
+            }
+            form#loginform p.submit input#wp-submit {
+                padding: 2px 31px;
+                transition-duration: 0.2s;
+                color: rgb(255, 255, 255) !important;
+                background-color: #496bc3;
+                font-size: 17px;
+                border-radius: 4px;
+                border: 0px;
+                width: 100%;
+                height: 50px;
+            }
+            .login-action-login .wp_login .dig_otp_block input#wp_bb_log_submit {
+                padding: 2px 31px;
+                transition-duration: 0.2s;
+                color: rgb(255, 255, 255) !important;
+                background-color: rgb(20 130 64);
+                font-size: 15px !important;
+                border-radius: 4px;
+                border: 0px;
+                margin: 0px !important;
+                height: 50px;
+            }
+            form#loginform input#username {
+                height: 50px;
+                width: 100%;
+            }
+            form#loginform input#user_pass {
+                height: 50px;
+                width: 100%;
+            }
+            .login .button.wp-hide-pw {
+                top: 3px;
+                color: #496bc3;
+            }
+            body.login.js.login-action-login div#login {
+                position: relative;
+                padding: 0;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            form#loginform {
+                margin: 0px;
+            }
+            #login form p.forgetmenot {
+                padding-top: 20px;
+            }
+            body.login.js.login-action-login div#login p.message {
+                margin-bottom: 1px;
+            }
+
+            .dig_wc_countrycodecontainer.dig_wc_logincountrycodecontainer input.input-text.countrycode.dig_wc_logincountrycode {
+                border: 0;
+                height: 48px;
+                top: 1px;
+                position: relative;
+                left: 1px;
+            }
+			.login-action-lostpassword h1 {
+				background: #fff;
+			}
+            .login #backtoblog, .login #nav {
+                padding: 5px 24px !important;
+            }
+.login p.message {
+				margin: 0px !important;
+			}
+			.login form {
+				margin: 0px !important;
+			}
+        </style>
+    <?php }
+ 
+    add_action( 'login_enqueue_scripts', 'lgob_wp_admin_login_logo' );
+ 
+endif;
