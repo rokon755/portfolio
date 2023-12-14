@@ -2805,3 +2805,15 @@ hr {
     display: none;
 }
 }
+
+@media(min-width: 1201px) and (max-width: 1700px) {
+  .portfolio--front--image .col.s12.m6.l6.xl3 {
+      max-height: 140px !important;
+  }
+  #bl-work-items>div a div {
+      max-height: 140px !important;
+  }
+  #bl-work-items>div a, #bl-work-items>div a img {
+      min-height: 140px !important;
+  }
+}
