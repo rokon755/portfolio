@@ -2546,7 +2546,7 @@ ul.some--specification li {
     padding: 0px 20px;
     border-radius: 0px;
     margin-bottom: 30px;
-    border-left: 5px solid #F2F5F8;
+    border-left: 5px solid #eee;
 }
 .contact--info--box li span.font-weight-700 {
     min-width: 95px;
