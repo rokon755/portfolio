@@ -1110,8 +1110,12 @@ span.separator {
 }
 
 #bl-work-items>div a div span {
-  margin: 0 auto;
-  color: #fff;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: normal;
+    padding: 0px 15px;
 }
 
 #bl-work-items>div a {
@@ -1158,8 +1162,11 @@ div.bl-panel-items>div>div {
 }
 
 div.bl-panel-items>div>div h3 {
-  font-size: 30px;
-  margin: 0 0 30px 0;
+    font-size: 40px;
+    margin: 0 0 10px 0;
+    font-family: 'Barlow Condensed';
+    font-weight: 400;
+    text-transform: capitalize;
 }
 
 div.bl-panel-items>div>div ul.project-details li {
@@ -2455,31 +2462,31 @@ body.blog .btn.back:hover,
 .portfolio--tab--section .tab {
   overflow: hidden;
   border: 0px solid #ccc;
-  background-color: #F8F9FA;
+  background-color: #eee;
 }
 
 /* Style the buttons inside the tab */
 .portfolio--tab--section .tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
-  font-weight: 600;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 /* Change background color of buttons on hover */
 .portfolio--tab--section .tab button:hover {
-  background-color: #eee;
+  background-color: #e6e6e6;
 }
 
 .portfolio--tab--section .tab button.active {
     background-color: #FA713E;
     color: #fff;
-    border-radius: 2px;
+    border-radius: 0px;
 }
 
 /* Style the tab content */
