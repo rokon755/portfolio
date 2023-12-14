@@ -2575,7 +2575,7 @@ ul.some--specification li {
 .contact--info--box ul.second-font.list-2 li span i.fa {
     font-weight: 600;
     margin-right: 5px;
-    color: #ce8343;
+    color: #db774b;
 }
 @media(min-width: 1024px) {
   ul.specification--list {
@@ -2592,7 +2592,7 @@ ul.specification--list li {
 ul.specification--list li i.fa {
     font-weight: bold;
     margin-right: 5px;
-    color: #ce8343;
+    color: #db774b;
 }
 .more--details--used--technologis h3 {
     margin-bottom: 15px;
