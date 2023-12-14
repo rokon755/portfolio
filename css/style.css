@@ -2690,16 +2690,16 @@ hr {
 }
 .career--obj--summary .one, .career--obj--summary .two {
     width: 50%;
-    border: 0px solid #eee;
+    border-bottom: 0px solid #db774b14;
 }
 .career--obj--summary .one {
-    background: #F2F5F8;
+    background: linear-gradient(0deg, #f5f6f9, #eee) !important;
     margin-right: 1%;
     padding: 30px;
     border-radius: 6px;
 }
 .career--obj--summary .two {
-    background: #F2F5F8;
+    background: linear-gradient(0deg, #f5f6f9, #eee) !important;
     margin-left: 1%;
     padding: 30px;
     border-radius: 6px;
