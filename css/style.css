@@ -2380,7 +2380,7 @@ body.blog .pagination li a i {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #e97d34;
+  background: #FA713E;
 }
 
 ::-webkit-scrollbar-track {
@@ -2423,7 +2423,7 @@ body.blog .btn.back,
 div.bl-panel-items nav span.bl-previous-work,
 div.bl-panel-items nav span.bl-next-work,
 div.bl-panel-items nav span.bl-icon-close {
-  color: #e97d34 !important;
+  color: #FA713E !important;
 }
 
 .readmore.btn,
@@ -2443,11 +2443,11 @@ body.blog .pagination li.active,
 .comments-form button:active,
 body.blog .btn.back:hover,
 .personal-info a.btn.btn-blog:hover {
-  background: #e97d34 !important;
+  background: #FA713E !important;
 }
 
 .resume-cards-container .resume-card-name {
-  color: #e97d34 !important;
+  color: #FA713E !important;
 }
 
 
@@ -2477,7 +2477,7 @@ body.blog .btn.back:hover,
 }
 
 .portfolio--tab--section .tab button.active {
-    background-color: #e97d34;
+    background-color: #FA713E;
     color: #fff;
     border-radius: 3px;
 }
@@ -2647,7 +2647,7 @@ p.also--specification {
     color: #004861;
 }
 .resume-container .valign-wrapper.row .resume-list.col.l5.section-padding .is-active .resume-list-item-inner {
-    background: #e97d34 !important;
+    background: #FA713E !important;
 }
 .resume-container .valign-wrapper.row .resume-list.col.l5.section-padding .is-active .resume-list-item-inner h6.resume-list-item-title.uppercase {
     color: #fff;
