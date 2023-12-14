@@ -2479,7 +2479,7 @@ body.blog .btn.back:hover,
 .portfolio--tab--section .tab button.active {
     background-color: #FA713E;
     color: #fff;
-    border-radius: 3px;
+    border-radius: 2px;
 }
 
 /* Style the tab content */
