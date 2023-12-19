@@ -2828,3 +2828,9 @@ hr {
       min-height: 140px !important;
   }
 }
+
+@media(max-width: 1800px) {
+  .more--details--used--technologis ul li {
+      width: 100% !important;
+  }
+}
