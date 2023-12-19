@@ -547,7 +547,7 @@ body.dark .responsive-video {
     -moz-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
     border-radius: 6px;
-    background: linear-gradient(0deg, #f3f5f8, #ffffff) !important;
+/*    background: linear-gradient(0deg, #f3f5f8, #ffffff) !important;*/
 }
 .bl-main>section:nth-child(1) {
     box-shadow: none !important;
@@ -757,7 +757,7 @@ section.bl-expand .bl-icon-close {
 /*** Personal informations ***/
 
 .infos {
-  padding-bottom: 50px;
+  padding-bottom: 35px;
 }
 
 .profile-picture {
@@ -775,7 +775,8 @@ section.bl-expand .bl-icon-close {
 }
 
 .personal-info h6 i {
-  padding-right: 7px;
+    padding-right: 7px;
+    color: #6068f7;
 }
 
 .personal-info ul li {
@@ -2552,7 +2553,7 @@ ul.some--specification li {
     padding: 0px 20px;
     border-radius: 0px;
     margin-bottom: 30px;
-    border-left: 5px solid #eee;
+    border-left: 5px solid #f2f2f2;
 }
 .contact--info--box li span.font-weight-700 {
     min-width: 95px;
@@ -2612,8 +2613,11 @@ ul.specification--list li i.fa {
 }
 .more--details--used--technologis h3 i.fa {
     font-weight: 500;
-    color: #004861;
+    color: #6068f7;
     margin-right: 13px;
+}
+.xxpertise--in--a--wide p.second-font {
+    padding-top: 10px;
 }
 .more--details--used--technologis ul {
     display: flex;
@@ -2638,7 +2642,7 @@ p.the--projects--contibuted {
     font-family: 'Barlow Condensed';
 }
 p.also--specification {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     color: #004861;
 }
 .bl-main>section:nth-child(4).bl-expand .contact .leftside span a {
@@ -2700,13 +2704,13 @@ hr {
     border-bottom: 0px solid #db774b14;
 }
 .career--obj--summary .one {
-    background: linear-gradient(0deg, #f5f6f9, #eee) !important;
+    background: linear-gradient(0deg, #fff, #f2f2f2) !important;
     margin-right: 1%;
     padding: 30px;
     border-radius: 6px;
 }
 .career--obj--summary .two {
-    background: linear-gradient(0deg, #f5f6f9, #eee) !important;
+    background: linear-gradient(0deg, #fff, #f2f2f2) !important;
     margin-left: 1%;
     padding: 30px;
     border-radius: 6px;
