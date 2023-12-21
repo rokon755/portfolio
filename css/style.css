@@ -598,7 +598,7 @@ body.dark .responsive-video {
   position: absolute;
   top: -15px;
   right: -15px;
-  width: 48px;
+  width: 46px;
   cursor: pointer;
   z-index: 100;
   opacity: 0;
