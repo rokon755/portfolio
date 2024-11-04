@@ -2701,18 +2701,18 @@ hr {
     padding: 0px;
 }
 .career--obj--summary .one, .career--obj--summary .two {
-    width: 50%;
+    width: 100%;
     border-bottom: 0px solid #db774b14;
 }
 .career--obj--summary .one {
     background: linear-gradient(0deg, #fff, #f2f2f2) !important;
-    margin-right: 1%;
+    margin-right: 0%;
     padding: 30px;
     border-radius: 6px;
 }
 .career--obj--summary .two {
     background: linear-gradient(0deg, #fff, #f2f2f2) !important;
-    margin-left: 1%;
+    margin-left: 0%;
     padding: 30px;
     border-radius: 6px;
 }
