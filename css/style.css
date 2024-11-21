@@ -740,8 +740,8 @@ section.bl-expand .bl-icon-close {
 .bl-main>section.topleft .bl-box .ah-headline.clip .my-name {
     font-size: 50px;
     display: block;
-    margin: 15px 0 25px;
-    color: #004861;
+    margin: 15px 0 15px;
+    color: #005cad;
     font-family: 'Barlow Condensed';
     font-weight: 600;
 }
@@ -2432,7 +2432,7 @@ body.blog .btn.back,
 div.bl-panel-items nav span.bl-previous-work,
 div.bl-panel-items nav span.bl-next-work,
 div.bl-panel-items nav span.bl-icon-close {
-  color: #3e78fd !important;
+  color: #005cad !important;
 }
 
 .readmore.btn,
@@ -2452,7 +2452,7 @@ body.blog .pagination li.active,
 .comments-form button:active,
 body.blog .btn.back:hover,
 .personal-info a.btn.btn-blog:hover {
-  background: #3e78fd !important;
+  background: #005cad !important;
 }
 
 .resume-cards-container .resume-card-name {
@@ -2485,7 +2485,7 @@ body.blog .btn.back:hover,
 }
 
 .portfolio--tab--section .tab button.active {
-    background-color: #3e78fd;
+    background-color: #005cad;
     color: #fff;
     border-radius: 0px;
 }
