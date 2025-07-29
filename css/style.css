@@ -136,7 +136,7 @@ ul.specification--list {
     background-size: cover;
     background-position: center center;
     width: calc(33.3333333333% - 48px);
-    border-radius: 6px;
+    border-radius: 15px;
 }
 
 .main-picture.woman {
@@ -438,6 +438,9 @@ body.dark .responsive-video {
     width: 57px;
     border-bottom: 4px solid #eee;
     transform: skew(45deg, 0deg);
+}
+.divider .outer-line:fast-child {
+    border-color: #0aa0d5;
 }
 
 /* Preloader
@@ -741,7 +744,7 @@ section.bl-expand .bl-icon-close {
     font-size: 50px;
     display: block;
     margin: 15px 0 15px;
-    color: #004861;
+    color: #0aa0d5;
     font-family: 'Barlow Condensed';
     font-weight: 600;
 }
@@ -777,7 +780,7 @@ section.bl-expand .bl-icon-close {
 
 .personal-info h6 i {
     padding-right: 7px;
-    color: #6068f7;
+    color: #0aa0d5;
 }
 
 .personal-info ul li {
@@ -971,7 +974,7 @@ section.bl-expand .bl-icon-close {
   font-size: 18px;
 }
 .resume-content h6 span.university--name {
-    color: #657db7;
+    color: #0aa0d5;
     font-size: 16px;
     display: block;
     padding-top: 5px;
@@ -1052,9 +1055,12 @@ span.separator {
 }
 
 .resume-list-item-title i {
-  padding-right: 13px;
+    padding-right: 13px;
+    color: #0aa0d5;
 }
-
+.resume-container .valign-wrapper.row .resume-list.col.l5.section-padding .is-active .resume-list-item-inner h6.resume-list-item-title.uppercase i.fa {
+    color: #fff;
+}
 
 /*** Badges ***/
 
@@ -2389,7 +2395,7 @@ body.blog .pagination li a i {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #2176ff;
+  background: #0aa0d5;
 }
 
 ::-webkit-scrollbar-track {
@@ -2432,7 +2438,7 @@ body.blog .btn.back,
 div.bl-panel-items nav span.bl-previous-work,
 div.bl-panel-items nav span.bl-next-work,
 div.bl-panel-items nav span.bl-icon-close {
-  color: #2176ff !important;
+  color: #0aa0d5 !important;
 }
 
 .readmore.btn,
@@ -2452,11 +2458,11 @@ body.blog .pagination li.active,
 .comments-form button:active,
 body.blog .btn.back:hover,
 .personal-info a.btn.btn-blog:hover {
-  background: #2176ff !important;
+  background: #0aa0d5 !important;
 }
 
 .resume-cards-container .resume-card-name {
-  color: #2176ff !important;
+  color: #0aa0d5 !important;
 }
 
 
@@ -2485,7 +2491,7 @@ body.blog .btn.back:hover,
 }
 
 .portfolio--tab--section .tab button.active {
-    background-color: #2176ff;
+    background-color: #0aa0d5;
     color: #fff;
     border-radius: 0px;
 }
@@ -2583,7 +2589,7 @@ ul.some--specification li {
 .contact--info--box ul.second-font.list-2 li span i.fa {
     font-weight: 600;
     margin-right: 5px;
-    color: #2176ff;
+    color: #0aa0d5;
 }
 @media(min-width: 1024px) {
   ul.specification--list {
@@ -2600,7 +2606,7 @@ ul.specification--list li {
 ul.specification--list li i.fa {
     font-weight: bold;
     margin-right: 5px;
-    color: #2176ff;
+    color: #0aa0d5;
 }
 .more--details--used--technologis h3 {
     margin-bottom: 15px;
@@ -2614,8 +2620,11 @@ ul.specification--list li i.fa {
 }
 .more--details--used--technologis h3 i.fa {
     font-weight: 500;
-    color: #6068f7;
+    color: #0aa0d5;
     margin-right: 13px;
+}
+p.the--projects--contibuted a {
+    color: #0aa0d5;
 }
 .xxpertise--in--a--wide p.second-font {
     padding-top: 10px;
@@ -2634,7 +2643,7 @@ ul.specification--list li i.fa {
 .more--details--used--technologis ul li i.fa {
     font-weight: bold;
     margin-right: 5px;
-    color: #2176ff;
+    color: #0aa0d5;
 }
 p.the--projects--contibuted {
     padding: 0px 0px 30px 25px;
@@ -2660,7 +2669,7 @@ p.also--specification {
     color: #004861;
 }
 .resume-container .valign-wrapper.row .resume-list.col.l5.section-padding .is-active .resume-list-item-inner {
-    background: #2176ff !important;
+    background: #0aa0d5 !important;
 }
 .resume-container .valign-wrapper.row .resume-list.col.l5.section-padding .is-active .resume-list-item-inner h6.resume-list-item-title.uppercase {
     color: #fff;
@@ -2672,7 +2681,7 @@ hr {
 }
 .qrcode--section--here img {
     width: 100%;
-    max-width: 310px;
+    max-width: 240px;
 }
 .bl-main>section:nth-child(4).bl-expand .contact .rightside {
     display: flex;
