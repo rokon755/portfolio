@@ -436,10 +436,11 @@ body.dark .responsive-video {
 
 .divider .outer-line {
     width: 57px;
-    border-bottom: 4px solid #eee;
+    border-bottom: 4px solid #eaeaea;
     transform: skew(45deg, 0deg);
+    margin-right: 2px;
 }
-.divider .outer-line:fast-child {
+.divider .outer-line:first-child {
     border-color: #0aa0d5;
 }
 
