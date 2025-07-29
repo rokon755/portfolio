@@ -443,6 +443,9 @@ body.dark .responsive-video {
 .divider .outer-line:first-child {
     border-color: #0aa0d5;
 }
+/*.ah-headline.clip b {
+    color: #004861;
+}*/
 
 /* Preloader
 ================================================== */
